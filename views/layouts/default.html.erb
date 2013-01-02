@@ -1,0 +1,299 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <title><%= @title %></title>
+    <!-- Meta Data ================ -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="We will fill in with our information" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" /> 
+    
+    <!-- CSS / SASS & COMPASS ================ --> 
+    <!-- <link rel="stylesheet" href="/stylesheets/screen.css"> This is more the Rails Universe-taking it out for now-->
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/header-1.css">
+    
+    <!-- content slider -->
+    <link rel="stylesheet" href="stylesheets/html-content-slider-flexslider.css">
+    
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]--> 
+    
+    <!-- Icons ================ -->
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
+    <!-- For iPhone with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />
+    <!-- For third-generation iPad with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- Open Graph for facebook
+    http://graph.facebook.com/[UserName] replace [UserName] 
+    with yours and get your fb:admis content information where the XXXX goes.
+    ================================================== -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content=""/>
+    <meta property="og:site_name" content="" />
+    <meta property="fb:admins" content="XXXXX" />
+    <meta property="og:locale" content="en_us" />
+    <meta property="og:description" content="  " />
+    
+    <!-- JS JQuery in the head if that's what we are going to use this library ================ -->   
+    <script type="text/javascript" src="./javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="./javascripts/modernizr.custom.87724.js"></script>
+          
+  </head>
+  
+  
+  <body class="tall-logo"> <!-- This is for Concept A - The other campaigns will be managed into Partials   -->  
+    
+    <!-- begin accesibility skip to nav skip content -->
+    <ul class="visuallyhidden" id="top">
+    	<li><a href="#nav" title="Skip to navigation" accesskey="n">Skip to navigation</a></li>
+    	<li><a href="#page" title="Skip to content" accesskey="c">Skip to content</a></li>
+    </ul>
+    <!-- end /.visuallyhidden accesibility--> 
+
+    <!-- mobile navigation trigger-->
+    <h5 class="mobile_nav"><a href="javascript:void(0)">&nbsp;<span></span></a></h5>
+    <!--end mobile navigation trigger-->
+
+    <!-- THIS SHOULD BE IN A PARTIAL CALLED SECTION PRE-HEADER
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   -->
+    <section class="container preheader"> 
+    	
+    	<!--this is the login for the user and a form will need to be developed against the spec-->
+    	<nav class="user clearfix"> <a href="/"><i class="icon-user"></i> Login</a></nav>
+    	<nav class="user clearfix"> <a href="/"><i class=""></i> Sign Up</a></nav>
+    	<!--close user nav-->
+
+    	<ul class="social">
+    		<li><a class="socicon small rss" href="#" data-placement="bottom" title="Subscribe to our RSS feed"></a></li>
+    		<li><a class="socicon small facebook" href="#" data-placement="bottom" title="Follow us on Facebook"></a></li>
+    		<li><a class="socicon small twitterbird" href="#" data-placement="bottom" title="Follow us on Twitter"></a></li>
+    		<li><a class="socicon small linkedin" href="#" data-placement="bottom" title="Follow us on LinkedIn"></a></li>
+    		<li><a class="socicon small vimeo" href="#" data-placement="bottom" title="Follow us on Vimeo"></a></li>
+    	</ul>
+    </section>
+    <!-- END SECTION PARTIAL PRE-HEADER       
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+    
+    <!-- This will be organized in a partial: Global_Anon.Navbar
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   -->
+    
+    <!-- begin .header-->
+    <header class="header clearfix">
+      <img src="assets/images/print-logo.png" class="print logo" alt="Lootsie" />
+    	
+    	<div class="container"> 
+    		<!-- begin #logo -->
+    		<div id="logo">
+    		  <a href="/">
+    		    <img alt="" src="/images/trans.gif" /><em>Responsive Bootstrap Goodness</em><!--effing ie7 support-->
+    		  </a>                        
+    		</div>
+    		
+    		<!-- begin #main_menu -->
+    		<nav id="main_menu">
+    			<ul class="accordmobile">
+    				<li><a href="/">Home</a></li>
+    				<li class="parent active"><a href="javascript:void(0)">Tour<i></i></a>
+    					<ul>
+    						<li><a href="alternative-header.html">Gamers</a></li>
+    						<li><a href="typography-elements.html">Developers</a></li>
+    						<li><a href="hero-equal-height-columns.html">Advertisers</a></li>
+    					</ul>
+    				</li>
+    				<li class="parent"><a href="javascript:void(0)">Games<i></i></a>
+    					<ul>
+    						<li><a href="/">Something To Come</a></li>
+    					</ul>
+    				</li>
+    				<li class="parent"><a href="javascript:void(0)">Blog<i></i></a>
+    					<ul>
+    						<li><a href="/">Something To Come</a></li>
+    					</ul>
+    				</li>
+    				
+    				<li class="parent"><a href="javascript:void(0)">Templates to Come<i></i></a>
+    					<ul>
+    						<li><a href="typography-elements.html">Typography & Elements</a></li>
+    						<li><a href="hero-equal-height-columns.html">Hero Equal Height Cols</a></li>
+    						<li><a href="misc-components.html">Misc Bootstrap Stuff</a></li>
+    						<li><a href="bootstrap-thumbnails.html">Bootstrap's Thumbnails</a></li>
+    						<li><a href="rotating-testimonials-feature.html">Rotating Testimonials</a></li>
+    					</ul>
+    				</li>
+    			</ul>
+    		</nav>
+    		<!-- close / #main_menu --> 
+
+
+        <!-- END partial: Global_Anon.Navbar  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+    </header>
+    
+    <section role="main">
+      <div class="hero-unit right no-border no-padding-bottom">
+        <div class="container">
+          <h1><%= @title %></h1>
+        </div>
+      </div>
+      <%= yield %>
+    </section>
+    
+    <!-- THIS SHOULD BE A IN A PARTIAL CALLED FOOTER
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    
+    <!--begin footer GLOBAL PART-->
+  	<footer id="footer" class="clearfix">
+  		<div class="container"><!--footer container-->
+  			<div class="row-fluid">
+  				<div class="span12">
+  					<div class="twitter flexslider clearfix">
+  						<p class="icon-twitter"></p>
+  						<ul id="twitter_update_list" class="slides">
+  						</ul>
+  						<!-- Twitter Feed --> 
+  						<script src="assets/js/blogger.js" type="text/javascript"></script><!--change user name from "DesignMuseum" to your own--> 
+  						<script src="http://api.twitter.com/1/statuses/user_timeline/DesignMuseum.json?include_rts=true&amp;callback=twitterCallback2&amp;count=5" type="text/javascript"></script> 
+  					</div><!-- end twitter flexslider clearfix--> 
+  				</div><!--close span12--> 
+  			</div><!--close row-fluid-->
+
+  			<div class="row-fluid">
+  				<div class="span1">
+  				  <div class="logo-sml"></div>
+  				</div>
+  				
+  				<div class="span2">
+  					<section>
+  						<h4>LEARN MORE</h4>
+  						<ul class="footerPosts">
+  						  <li>
+  						    <a href="#">Tour</a>
+  						  </li>
+  						  <li>
+  						    <a href="#">Games</a>
+  						  </li>
+  						  <li>
+  						    <a href="#">Rewards</a>
+  						  </li>
+  						</ul>
+    				</section><!--close section-->  	
+    			</div><!--close span2-->
+    				
+    			<div class="span2">
+    		  	<section>
+    					<h4>HELP</h4>
+    					<ul class="footerPosts">
+    					  <li>
+    						  <a href="#">Support</a>
+    						</li>
+    						<li>
+    					    <a href="#">Faqs</a>
+    					  </li>
+    					  <li>
+    					    <a href="#">Contact Us</a>
+    					  </li>
+     					</ul>
+     				</section><!--close section-->  	
+   				</div><!--close span2--> 	
+
+          <div class="span2">
+      		  <section>
+      			  <h4>PARTNERS</h4>
+    				  <ul class="footerPosts">
+    					  <li>
+    						  <a href="#">About Us</a>
+    						</li>
+    						<li>
+    						  <a href="#">Developers</a>
+    						</li>
+    						<li>
+    						  <a href="#">Advertisers</a>
+    						</li>
+    					</ul>
+            </section><!--close section-->   	
+      		</div><!--close span2-->  	
+        					
+    	    <div class="span2">
+    			  <section>
+    				  <h4>LEGAL</h4>
+    					<ul class="footerPosts">
+    					  <li>
+    						  <a href="#">Legal</a>
+    						</li>
+    						<li>
+    						  <a href="#">Terms of Service</a>
+    						</li>
+    						<li>
+    						  <a href="#">Privacy Policy</a>
+    						</li>
+    					</ul>
+    				</section><!--close section-->  	
+    			</div><!--close span2--> 
+                                             
+					<div class="span3">
+  			    <section>
+					    <h4>FOLLOW US</h4>
+					    <ul class="social">
+						    <li><a class="socicon rss" href="#" title="RSS"></a></li>
+						    <li><a class="socicon facebook" href="#" title="Facebook"></a></li>
+						    <li><a class="socicon twitterbird" href="#" title="Twitter"></a></li>
+						    <li><a class="socicon linkedin" href="#" title="LinkedIn"></a></li>
+						    <li><a class="socicon pintrest" href="#" title="pintrest"></a></li>
+					    </ul>
+            </section><!--close section-->  	
+          </div><!--close span2-->          
+  			</div>
+  			<!-- close .row-fluid--> 
+  		</div>
+  		<!-- close footer .container--> 
+
+  		<!--Lootsie Credits -->
+  		<section class="footerCredits">
+  			<div class="container">
+  				<ul class="clearfix">
+  					<li>© 2012 LOOTSIE INC. ALL RIGHTS RESERVED.</li>
+  					<li><a href="sitemap.html">SITEMAP</a></li>
+  					<li><a href="privacy.html">PRIVACY</a></li>
+  				</ul>
+  			</div><!--footerCredits container--> 
+  		</section><!--close section--> 
+  	</footer><!--/.footer-->
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+    GLOBAL -->
+    
+    	<span class="backToTop"><a href="#top">back to top</a></span> </div>
+    <!-- close #page--> 
+
+    <!-- JS JQuery ================ --> 
+    <script type="text/javascript" src="./javascripts/bootstrap.min.js"></script><!--transitions, tooltips, popover, buttons, modals, alert messages-->
+    <script type="text/javascript" src="./javascripts/ddsmoothmenu-min.js"></script><!-- desktop edge detect menu -->
+    <script type="text/javascript" src="./javascripts/jquery.dcjqaccordion.2.7.min.js"></script><!-- mobile multi-level accordion menu -->
+    <script type="text/javascript" src="./javascripts/jquery.easytabs.min.js"></script><!-- tabs/testimonials -->
+    <script type="text/javascript" src="./javascripts/slide-to-top-accordion-min.js"></script><!-- slide to top accordion toggle -->
+    <script type="text/javascript" src="./javascripts/jquery.easing-1.3.min.js"></script><!-- slide to top accordion toggle -->
+    <script type="text/javascript" src="./javascripts/jquery.flexslider-min.js"></script><!--flexslider content slider twitter slider and initializations-->
+    <script type="text/javascript" src="./javascripts/responsive-tables.js"></script><!--responsive table-->
+    <script type="text/javascript" src="./javascripts/jquery.fitvid.js"></script><!-- responsive videos -->
+    
+    <!--initialize scripts / custom scripts all pages--> 
+    <script type="text/javascript" src="./javascripts/scripts.js"></script><!-- responsive videos -->    
+    
+    
+  </body>
+</html>
