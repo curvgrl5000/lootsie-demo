@@ -28,7 +28,7 @@ root = ::File.dirname(__FILE__)
 #   Compass.configure_sass_plugin!
 #   
 #   use Sass::Plugin::Rack  # Sass Middleware
-# end    
+# end     
 
 # Other Rack Middleware
 use Rack::ShowStatus      # Nice looking 404s and other messages
