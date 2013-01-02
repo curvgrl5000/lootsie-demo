@@ -2,6 +2,20 @@ source :rubygems
 
 gem 'serve', '1.5.1'
 
+
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+group :development do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+end
+
+
+
 # Use edge instead:
 # gem 'serve', :git => 'git://github.com/jlong/serve.git'
 

@@ -1,14 +1,5 @@
 #\ -p 4000
 
-group :development do
-  gem 'sqlite3'
-end
-
-group :production do
-  gem 'pg'
-end
-
-
 require 'rubygems'
 require 'bundler'
 begin
