@@ -6,12 +6,12 @@ gem 'serve', '1.5.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development do
-  gem 'sqlite3'
+group :production, :staging do
+  gem "pg"
 end
 
-group :production do
-  gem 'pg'
+group :development, :test do
+  gem "sqlite3-ruby", "~> 1.3.0", :require => "sqlite3"
 end
 
 
