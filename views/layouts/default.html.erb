@@ -58,7 +58,7 @@
   </head>
   
   
-  <body class="tall-logo"> <!-- This is for Concept A - The other campaigns will be managed into Partials   -->  
+  <body class="tall-logo"> <!-- A naming convention that accommodates a tall logo   -->  
     
     <!-- begin accesibility skip to nav skip content -->
     <ul class="visuallyhidden" id="top">
@@ -71,13 +71,39 @@
     <h5 class="mobile_nav"><a href="javascript:void(0)">&nbsp;<span></span></a></h5>
     <!--end mobile navigation trigger-->
 
-    <!-- THIS SHOULD BE IN A PARTIAL CALLED SECTION PRE-HEADER
+    <!-- THIS IS A GLOBAL BLOCK: PRE-HEADER
     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   -->
     <section class="container preheader"> 
     	
-    	<!--this is the login for the user and a form will need to be developed against the spec-->
-    	<nav class="user clearfix"> <a href="/"><i class="icon-user"></i> Login</a></nav>
-    	<nav class="user clearfix"> <a href="/"><i class=""></i> Sign Up</a></nav>
+    	<!--this is the login for the user and a form is needed here  / See SPEC-->
+    	<nav class="user clearfix">
+    	  <ul>
+      		<li id="signup">
+      			<a href="/">Sign Up</a>
+      		</li>
+      		<li id="login">
+      			<a id="login-trigger" href="#"><i class="icon-user"></i>            
+      				Log in <span>▼</i> </span> <!-- This will most liklely be a font-awesome styling icon - more styling to come -->
+      			</a>
+      			<div id="login-content">
+      				<form>
+      					<fieldset id="inputs">
+      						<span class="add-on"><i class="icon-envelope"></i></span>
+      						<input id="username" type="email" name="Email" placeholder="Your email address" required>   
+      						<span class="add-on"><i class="icon-key"></i></span>
+      						<input id="password" type="password" name="Password" placeholder="Password" required>
+      					</fieldset>
+      					<fieldset id="actions">
+      						<input type="submit" id="submit" value="Log in">
+      						<label><input type="checkbox" checked="checked"> Keep me signed in</label>
+      					</fieldset>
+      				</form>
+      			</div>                     
+      		</li>
+      	</ul>
+    	  </nav>
+      <!-- <nav class="user clearfix"> <a href="/"><i class=""></i> Sign Up</a></nav> -->
+    	
     	<!--close user nav-->
 
     	<ul class="social">
@@ -88,6 +114,8 @@
     		<li><a class="socicon small vimeo" href="#" data-placement="bottom" title="Follow us on Vimeo"></a></li>
     	</ul>
     </section>
+
+    
     <!-- END SECTION PARTIAL PRE-HEADER       
     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
     
@@ -102,7 +130,7 @@
     		<!-- begin #logo -->
     		<div id="logo">
     		  <a href="/">
-    		    <img alt="" src="/images/trans.gif" /><em>Responsive Bootstrap Goodness</em><!--effing ie7 support-->
+    		    <img alt="" src="/images/trans.gif" /><em>Welcome to Lootsie</em><!--effing ie7 support-->
     		  </a>                        
     		</div>
     		
@@ -292,7 +320,22 @@
     <script type="text/javascript" src="./javascripts/jquery.fitvid.js"></script><!-- responsive videos -->
     
     <!--initialize scripts / custom scripts all pages--> 
-    <script type="text/javascript" src="./javascripts/scripts.js"></script><!-- responsive videos -->    
+    <script type="text/javascript" src="./javascripts/scripts.js"></script><!-- responsive videos -->
+    
+    
+    <!-- Nav.User logIn Script / Styling in Header-1.css  -->
+    <script>
+    $(document).ready(function(){
+    	$('#login-trigger').click(function(){
+    		$(this).next('#login-content').slideToggle();
+    		$(this).toggleClass('active');					
+
+    		if ($(this).hasClass('active')) $(this).find('span').html('&#x25B2;')
+    			else $(this).find('span').html('&#x25BC;')
+    		})
+    });
+    </script>
+        
     
     
   </body>
