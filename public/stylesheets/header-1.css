@@ -3,8 +3,8 @@
 body.login nav.user {display:none!important;} /* hide the login on the login page duh ;-)*/
 nav.user {float:right;line-height:43px;}
 nav.user a {text-decoration:none; float:left; padding:0 5px;margin-right:5px;color:#758694;}
+nav.user .no-float { float: none;}
 nav.user a:hover {color:#53a3b7;}
-
 body.tall-logo nav.user {margin-left:10px;} 
 
 /* Form Signup       
@@ -96,7 +96,7 @@ nav.user #inputs input {
 
 span.add-on {
   background: #f1f1f1;
-  padding: 4px 4px;
+  padding: 5px 4px;
   margin: 0 0 5px 0;
   border: 1px solid #ccc;
   -moz-border-radius: 3px;
@@ -105,6 +105,27 @@ span.add-on {
   -moz-box-shadow: 0 1px 1px #ccc inset;
   -webkit-box-shadow: 0 1px 1px #ccc inset;
   box-shadow: 0 1px 1px #ccc inset;
+  line-height: 2;
+}
+span.add-on .facebook {
+  line-height: .35;
+  padding: 5px 3px;
+}
+
+.facebook.btn {
+  line-height: .35;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.facebook.btn a {
+ margin: 0px;
+ padding: 8px;
+}
+
+.facebook.btn:hover{
+  border: 1px solid #53A3B7;
 }
 
 nav.user #inputs input:focus {
@@ -177,7 +198,13 @@ nav.user #login label input {
   top: -7px;
   right: 2px;
 }
-
+h6.sign-in {
+  width: 200px;
+  float: right;
+  display: inline-block;
+  padding: 0;
+  margin-right: 10px;
+}   
 
 /* header / logo (desktop)
 ================================================== */
