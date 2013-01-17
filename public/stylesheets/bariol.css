@@ -1,0 +1,27 @@
+@font-face {font-family: "Bariol_Bold";
+  src: url('../font/Bariol_Bold.otf');
+  src: url('../font/Bariol_Bold.otf?#iefix') format('otf'),
+  font-weight: normal;
+  font-style: bold;
+}
+
+@font-face {font-family: "Bariol_Light";
+  src: url('../font/Bariol_Light.otf');
+  src: url('../font/Bariol_Light.otf?#iefix') format('otf'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {font-family: "Bariol_Regular";
+  src: url('../font/Bariol_Regular.otf');
+  src: url('../font/Bariol_Regular.otf?#iefix') format('otf'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {font-family: "Bariol_Thin";
+  src: url('../font/Bariol_Thin.otf');
+  src: url('../font/Bariol_Thin.otf?#iefix') format('otf'),
+  font-weight: normal;
+  font-style: normal;
+}
