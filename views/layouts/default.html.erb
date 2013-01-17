@@ -58,7 +58,7 @@
   </head>
   
   
-  <body class="tall-logo"> <!-- A naming convention that accommodates a tall logo   -->  
+  <body class="index"> <!-- A naming convention that accommodates a tall logo   -->  
     
     <!-- begin accesibility skip to nav skip content -->
     <ul class="visuallyhidden" id="top">
@@ -137,12 +137,10 @@
     		    <img alt="" src="/images/trans.gif" /><em>Welcome to Lootsie</em><!--effing ie7 support-->
     		  </a>                        
     		</div>
-    		
     		<!-- begin #main_menu -->
     		<nav id="main_menu">
     			<ul class="accordmobile">
-    				<li><a href="/">Home</a></li>
-    				<li class="parent active"><a href="javascript:void(0)">Tour<i></i></a>
+    				<li class="parent"><a href="javascript:void(0)">Tour<i></i></a>
     					<ul>
     						<li><a href="alternative-header.html">Gamers</a></li>
     						<li><a href="typography-elements.html">Developers</a></li>
@@ -154,13 +152,16 @@
     						<li><a href="/">Something To Come</a></li>
     					</ul>
     				</li>
-    				<li><a href="/">Rewards</a></li>
+    				<li class="parent"><a href="javascript:void(0)">Rewards<i></i></a>
+    					<ul>
+    						<li><a href="/">Something To Come</a></li>
+    					</ul>
+    				</li>    				
     				<li class="parent"><a href="javascript:void(0)">Blog<i></i></a>
     					<ul>
     						<li><a href="/">Something To Come</a></li>
     					</ul>
     				</li>
-    				
     				<li class="parent"><a href="javascript:void(0)">Templates to Come<i></i></a>
     					<ul>
     						<li><a href="typography-elements.html">Typography & Elements</a></li>
@@ -175,13 +176,16 @@
     		<!-- close / #main_menu --> 
 
 
-        <!-- END partial: Global_Anon.Navbar  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+        <!-- END partial: Global_Anon.Navbar  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->     
     </header>
     
+    <div class="header-strip"></div>
+    
+		
     <section role="main">
       <div class="hero-unit right no-border no-padding-bottom">
         <div class="container">
-          <h1><%= @title %></h1>
+          <h1 class="brand"><%= @title %></h1>
         </div>
       </div>
       <%= yield %>  

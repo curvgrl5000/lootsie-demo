@@ -20,9 +20,10 @@
 .content-slider-wrapper {
     position: relative;
     clear: both;
-    background: url(../images/70p.png) fixed;
+/*    background: url(../images/70p.png) fixed; PLACEHOLDER IMAGERY*/    
     margin: 0px 0 3% 0;
-    padding: 2% 60px 0 60px;
+    padding: 0% 60px 0 60px;
+    background-color:#95A2AB;
 }
 .content-slider.flexslider .video-wrapper { margin: 0 0 10px 0 }
 

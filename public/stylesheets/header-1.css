@@ -210,14 +210,20 @@ h6.sign-in {
 ================================================== */
 #logo, #logo img { /* width and height of logo desktop NON retina - this is the regular size logo */
 	width:140px;
-	height:59px;
+	height:76px;
 }
 #logo {
-    padding: 0 0 10px 0;
+    padding: 0 0 0 0;
     float: left;
     position:relative;
-    margin-top:18px;
-    background:url(../images/logo.png) no-repeat;
+    margin-top:0px;
+    background:url(../images/lootsie-type.png) no-repeat 7px 27px;
+    background-color: white;
+    background-size: 90%;
+    box-shadow: 0px 2px 16px -6px #222;
+    -moz-box-shadow:    0px 2px 16px -6px #222;
+      -webkit-box-shadow: 0px 2px 16px -6px #222;
+    
 }
 /* ie 7 fix*/
 .lt-ie8 #logo {position:absolute!important:top:0;left:0;}
@@ -233,12 +239,23 @@ h6.sign-in {
 	overflow:hidden;
 }
 .header {
-    margin: 0 auto 3% auto;
+    margin: 0 auto 0% auto;
     position: relative;
     clear:both;
     padding:0;
-    background: #4c5966;
+    background: #FFD24F;
     z-index: 999 /*ie 7*/
+}
+.header-strip {
+  margin: 0 auto 0% auto;
+  position: relative;
+  clear: both;
+  padding: 0;
+  background: #A0CE67;
+  z-index: 200 /*ie 7*/;
+  width: 100%;
+  height: 15px;
+  top: -1px;
 }
 
 /* tall logo resets (desktop)
@@ -359,13 +376,17 @@ h6.sign-in {
 ================================================== */
 .mobile_nav { display: none } /* hide trigger for desktop */
 #main_menu {
-    padding: 0 0 0 2.5%;
+    padding: 0 0 0 10.5%;
     z-index: 999;
-    right: -12px;
+    right: 0px;
     clear: none;
     position: relative;
     float:left;
     top: 0;
+    background-color: #55BCEB;
+    border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
 }
 #main_menu li.parent i {
 	background:url(../images/menu_arrow.png) 0 0 no-repeat;
@@ -396,31 +417,39 @@ h6.sign-in {
 /* first level */
 #main_menu li {
     float: left;
-    margin: 0 0 0 2px;
+    margin: 0 0 0 0px;
     padding: 0;
     position: relative;
-    background: #4c5966;
-    text-transform:lowercase;
+    text-transform: capitalize;
 }
 #main_menu li a {
     border: none;
-    color: #d8dfe5;
+    color: #fff;
     display: block;
-    height: 75px;
-    line-height: 75px;
+    height: 76px;
+    line-height: 95px;
     margin: 0!important;
-    padding: 0 12px;
+    padding: 0 15px 0 20px;
     text-decoration: none;
     font-size: 110%;
+    border-radius: 2px 10px 10px 0;
+    -moz-box-shadow:    7px 2px 20px -8px #222;
+      -webkit-box-shadow: 7px 2px 20px -8px #222;
+      box-shadow:         7px 2px 20px -8px #222;
+    font-weight: 600;  
 }
 #main_menu a:hover,
 #main_menu .active a,
 #main_menu a.selected {
-    background: #53a3b7;
-    color: #fff;
+    background: #FFD24F;
+    color: #6A737B;
 }
 /* sub level */
-#main_menu ul li ul li a { font-size: 100% }
+#main_menu ul li ul li a { font-size: 100%;
+  -moz-box-shadow:    0px 1px 26px -10px #222;
+    -webkit-box-shadow: 0px 1px 26px -10px #222;
+    box-shadow:         0px 1px 26px -10px #222; 
+  }
 .lt-ie9 #main_menu ul li ul li a { font-size: 100% }
 #main_menu ul li ul li a,
 #main_menu ul ul a.selected,
@@ -436,7 +465,7 @@ h6.sign-in {
     background-color: #53a3b7;
 }
 #main_menu ul li ul li {
-    background: #758694; /* second level bg color */
+    background: #6cc3ea; /* second level bg color */
     float: none;
     left: auto;
     margin: 0;
@@ -448,7 +477,7 @@ h6.sign-in {
 }
 
 #main_menu li li {
-    border-bottom:1px solid #a3b0bb;
+    border-bottom:0px solid #a3b0bb;
 }
 #main_menu li ul a,
 #main_menu li ul li a,
@@ -460,12 +489,13 @@ h6.sign-in {
     color: #fff;
 }
 #main_menu li ul {
-    background: #6d767e;
+    background: #6cc3ea;
     left: 0;
     padding: 0;
     position: absolute;
     top: 95px;
-	z-index: 100;
+	  z-index: 100;
+	  border-radius: 0 0px 10px 10px;
 }
 /* second level */
 #main_menu li ul ul {
@@ -473,7 +503,7 @@ h6.sign-in {
     z-index:100000;
 }
 #main_menu li ul a:hover {
-    background: #53a3b7;
+    background: #FFD24F;
 }
 /* third level + */
 #main_menu ul ul ul {
