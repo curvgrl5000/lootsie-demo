@@ -258,6 +258,16 @@ h6.sign-in {
   top: -1px;
 }
 
+.twitter-strip {
+  margin: 0 auto 0% auto;
+  position: relative;
+  clear: both;
+  padding: 0;
+  background: #A0CE67;
+  z-index: 200 /*ie 7*/;
+  width: 100%;
+}
+
 /* tall logo resets (desktop)
 ================================================== */
 .tall-logo #logo, .tall-logo #logo img { /* - this is the tall size logo NON retina */
@@ -436,7 +446,7 @@ h6.sign-in {
     -moz-box-shadow:    7px 2px 20px -8px #222;
       -webkit-box-shadow: 7px 2px 20px -8px #222;
       box-shadow:         7px 2px 20px -8px #222;
-    font-weight: 600;  
+    font-weight: 300;  
 }
 #main_menu a:hover,
 #main_menu .active a,
@@ -623,13 +633,13 @@ body.tall-logo nav.user {margin-left:0;}
 }
 #logo { 
     position: relative;
-    background-position: 50% 50%;
+    background-position: 40% 40%;
     display: block;
-    width: 100%;
+    width: 60%;
     height: 59px;
-    margin: 0;
-    padding: 10px 0!important;
-}
+    margin: 0 0 0 78px;
+    padding: 10px 0px!important;  
+  }
 /* tall header for taller logo mobile */
 .tall-logo #logo {
     background-image: url(../images/tall-logo-mobile.png); /*notice that this image changes on mobile */

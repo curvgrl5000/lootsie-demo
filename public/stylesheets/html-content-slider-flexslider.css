@@ -110,7 +110,7 @@
     width: 100%;
     position: relative;
     top: 0;
-    text-align: right;
+    text-align: center;
     padding:10px 0 10px 0;
 }
 .content-slider.flexslider .flex-control-nav li {
@@ -120,16 +120,18 @@
     *display: inline;
 }
 .content-slider.flexslider .flex-control-paging li a {
-    width: 40px;
-    height: 5px;
+    width: 11px;
+    height: 11px;
     display: block;
-    background: #a3b0bb;
+    /*background: #a3b0bb; */
+    background:#455560;
     cursor: pointer;
     text-indent: 9999px;
+    border-radius: 50%;
 }
-.content-slider.flexslider .flex-control-paging li a:hover { background: #2ba4c2 }
+.content-slider.flexslider .flex-control-paging li a:hover { background: #FFD24F }
 .content-slider.flexslider .flex-control-paging li a.flex-active {
-    background: #2ba4c2;
+    background: #FFD24F;
     cursor: default;
 }
 /* image credit (used in demo) this is the span inside these two divs
@@ -184,7 +186,7 @@
 @media only screen and (max-width: 767px) { 
 
 	.content-slider-wrapper {
- 	   margin: 10px 0 2% 0;
+ 	   margin: 0px 0 2% 0;
  	   padding:1% 35px;
 	}
     .content-slider.flexslider .caption {

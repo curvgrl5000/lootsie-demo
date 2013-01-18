@@ -128,7 +128,7 @@
     
     <!-- begin .header-->
     <header class="header clearfix">
-      <img src="assets/images/print-logo.png" class="print logo" alt="Lootsie" />
+      <img src="../images/print-logo.png" class="print logo" alt="Lootsie" />
     	
     	<div class="container"> 
     		<!-- begin #logo -->
@@ -180,8 +180,6 @@
     </header>
     
     <div class="header-strip"></div>
-    
-		
     <section role="main">
       <div class="hero-unit right no-border no-padding-bottom">
         <div class="container">
@@ -193,23 +191,27 @@
     
     <!-- THIS SHOULD BE A IN A PARTIAL CALLED FOOTER
     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <div class="twitter-strip">
+     <div class="container">
+			
+ 			<div class="row-fluid">
+ 				<div class="span12">
+ 					<div class="twitter flexslider clearfix">
+ 						<p class="icon-twitter"></p>
+ 						<ul id="twitter_update_list" class="slides">
+ 						</ul>
+ 						<!-- Twitter Feed --> 
+ 						<script src="./javascripts/blogger.js" type="text/javascript"></script><!--change user name from "DesignMuseum" to your own--> 
+ 						<script src="http://api.twitter.com/1/statuses/user_timeline/DesignMuseum.json?include_rts=true&amp;callback=twitterCallback2&amp;count=5" type="text/javascript"></script> 
+ 					</div><!-- end twitter flexslider clearfix--> 
+ 				</div><!--close span12--> 
+ 			</div><!--close row-fluid-->
+		 </div><!-- close container -->
+    </div><!-- close twitter background --> 
     
     <!--begin footer GLOBAL PART-->
   	<footer id="footer" class="clearfix">
   		<div class="container"><!--footer container-->
-  			<div class="row-fluid">
-  				<div class="span12">
-  					<div class="twitter flexslider clearfix">
-  						<p class="icon-twitter"></p>
-  						<ul id="twitter_update_list" class="slides">
-  						</ul>
-  						<!-- Twitter Feed --> 
-  						<script src="assets/js/blogger.js" type="text/javascript"></script><!--change user name from "DesignMuseum" to Lootsie--> 
-  						<script src="http://api.twitter.com/1/statuses/user_timeline/DesignMuseum.json?include_rts=true&amp;callback=twitterCallback2&amp;count=5" type="text/javascript"></script> 
-  					</div><!-- end twitter flexslider clearfix--> 
-  				</div><!--close span12--> 
-  			</div><!--close row-fluid-->
-
   			<div class="row-fluid">
   				<div class="span1">
   				  <div class="logo-sml"></div>
@@ -287,14 +289,19 @@
   			    <section>
 					    <h4>FOLLOW US</h4>
 					    <ul class="social">
-						    <li><a class="socicon rss" href="#" title="RSS"></a></li>
-						    <li><a class="socicon facebook" href="#" title="Facebook"></a></li>
-						    <li><a class="socicon twitterbird" href="#" title="Twitter"></a></li>
-						    <li><a class="socicon linkedin" href="#" title="LinkedIn"></a></li>
-						    <li><a class="socicon pintrest" href="#" title="pintrest"></a></li>
+						    <li><a class="socicon facebookcircle" href="#" title="Facebook"></a></li>
+						    <li><a class="socicon twitterbirdcircle" href="#" title="Twitter"></a></li>
+						    <li><a class="socicon linkedincircle" href="#" title="LinkedIn"></a></li>
+						    <li><a class="socicon pinterestcircle" href="#" title="pinterest"></a></li>
 					    </ul>
-            </section><!--close section-->  	
-          </div><!--close span2-->          
+            </section><!--close section-->
+            <section>
+              <button class="btn btn btn-inverse" type="button"><h6>Available on the iPhone</h6><h5>App Store</h5></button>              
+              <button class="btn btn btn-inverse" type="button"><h6>Available on</h6><h5>Android</h5></button> 
+              <div><img src="http://placehold.it/120x80" alt=""><div>
+                           
+            </section>  	
+          </div><!--close span3-->          
   			</div>
   			<!-- close .row-fluid--> 
   		</div>
@@ -342,6 +349,16 @@
     		if ($(this).hasClass('active')) $(this).find('span').html('&#x25B2;')
     			else $(this).find('span').html('&#x25BC;')
     		})
+    		
+    		$('.btn-developer, .btn-advertiser' ).popover({
+    		  trigger: 'hover'
+    		});
+    		
+    //		$('.btn-developer, .btn-advertiser' ).tooltip({
+    //		  trigger: 'hover'
+    //		}); If the client just wants the toolip instead of the hunky message
+    		
+    		
     });
     </script>
         
