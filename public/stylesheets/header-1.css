@@ -393,7 +393,7 @@ h6.sign-in {
     position: relative;
     float:left;
     top: 0;
-    background-color: #55BCEB;
+    background-color: #57ACE0;
     border-radius: 0 10px 10px 0;
     -webkit-border-radius: 0 10px 10px 0;
     -moz-border-radius: 0 10px 10px 0;
@@ -475,7 +475,7 @@ h6.sign-in {
     background-color: #53a3b7;
 }
 #main_menu ul li ul li {
-    background: #6cc3ea; /* second level bg color */
+    background: #6BB7DD; /* second level bg color */
     float: none;
     left: auto;
     margin: 0;

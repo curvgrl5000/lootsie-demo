@@ -45,6 +45,15 @@ body {
 	-webkit-text-size-adjust:100%;
 }
 
+/*  General Colors 
+==========================================================*/
+.cocoa {
+  color: #532B00;
+}
+.dark-grey {
+  color: #455560;
+}
+
 /*	Text Color
 ========================================================== */
 body, html, a { color: #576674 }
@@ -160,6 +169,7 @@ ins { text-decoration: overline }
 del { text-dcoration: strikethrough }
 strong,
 dfn { font-weight: bold }
+.tiny { font-size: 70% }
 small,
 .small { font-size: 75% }
 big,
@@ -288,14 +298,10 @@ q q:after { content: "\2019" }
     text-transform: uppercase;
     font-style: normal;
 }
-.cocoa {
-  color: #532B00;
-}
 
 /*	custom buttons
 ================================================== */
-
-/*For the Developers:*/
+/*  For the Developers and Advertisers  */
 
 .btn-developer p, .btn-advertiser p {
   font-size: 13px;
@@ -309,8 +315,8 @@ q q:after { content: "\2019" }
 
 .btn-advertiser {
 	color:#fff;
-	background:#55BCEB;
-	border: 1px solid #55BCEB;
+	background:#57ACE0;
+	border: 1px solid #57ACE0;
 	text-align: left;
 	margin-bottom: 3%;
 	-moz-box-shadow: 6px 8px 21px -5px #777;
@@ -346,16 +352,28 @@ q q:after { content: "\2019" }
 .btn-developer:active,.btn-info.active {
 	background-color:#24748c \9
 }
+a.btn-inverse {
+  color: white;
+}
 
-.btn-inverse {
+.btn-inverse  {
   color: white;
   background: #939BA1;
   border-color: #939BA1;
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
-  padding: 5px;
+  padding: 5px 6px 5px 8px;
   text-align: left;
 }
 
+.btn-inverse h6.tiny, .btn-inverse h5 {
+  line-height: 1;
+  color: white;
+  font-family: "bariol_regular";
+  letter-spacing: .5px;
+  float: left;
+  margin-left: 4%;
+  font-weight: bold;
+}
 
 
 /*	accessibility
@@ -423,6 +441,13 @@ img.aligncenter,
 img.alignnone { display: block;margin-bottom:3%; }
 .span4 img.aligncenter,.span4 img.alignnone,
 .span3 img.aligncenter,.span3 img.alignnone {margin-bottom:5%; }
+
+img.bottom-shot {
+  display: block;
+  background-position: 10px 20px;
+  padding: 0 0 0 42px;
+  margin-bottom: -20px;
+}
 
 /*	figures/figcaption
 ================================================== */
@@ -1019,7 +1044,7 @@ a.thumbnail:hover {
 ================================================== */
 #footer {
     clear: both;
-    background: #4c5966;
+    background: #64747E;
     padding: 2% 0 0 0;
 }
 #footer a {
@@ -1033,7 +1058,7 @@ a.thumbnail:hover {
 #footer h4 {
     margin-bottom: 10px;
     padding: 0 0 5px 0;
-    border-bottom: 1px solid #6d767e;
+    border-bottom: 1px solid #939BA1;
 }
 #footer p,
 #footer ul { color: #d8dfe5 }
@@ -1244,7 +1269,7 @@ font-size:70%!important;
 	height: 50px;
 	display: block;
 	margin: 0;
-	background:#55BCEB url(../images/top.png) no-repeat center center;
+	background:#57ACE0 url(../images/top.png) no-repeat center center;
 	-webkit-border-radius: 6px;
 	-moz-border-radius:6px;
 	border-radius: 6px;
@@ -1841,6 +1866,36 @@ blockquote {
 .call-to-action p {
     font-size:100%;
 }
+
+/*special button classes for the  iphone and mobile callouts in the footer  */ 
+#footer .btn-inverse h6.tiny, .btn-inverse h5 {
+  line-height: 1;
+  color: white;
+  font-family: "bariol_regular";
+  letter-spacing: .5px;
+  margin-left: 0;
+  font-weight: bold;
+  text-align: left;
+  float: left;
+}
+#footer .btn-inverse .span3 {
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+#footer .span3 .spl-btn {
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+#footer .row-fluid div.span6 , .row-fluid div.span5  {
+  display: inline-block;
+  float: left;
+  width: 35%;
+  margin: 0 5% 5% 0;
+  padding: 0px;
+}
+
 
 
 }/**** end max width 500px ****/
