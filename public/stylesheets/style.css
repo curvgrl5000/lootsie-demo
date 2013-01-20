@@ -1009,6 +1009,7 @@ ul.blogposts span.date .year {
 }
 .row-fluid .thumbnails {
   margin-left: 0;
+  margin-bottom: 1%;
 }
 .thumbnails > li {
   float: left;
