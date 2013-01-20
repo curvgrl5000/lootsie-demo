@@ -642,7 +642,7 @@ input[type="text"], input[type="password"], input[type="search"], input[type="em
     padding: 0 0 0 0;  //Percentages might be needed here when we go responsive 
     background: transparent;
 /*    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);*/	  
-    background-color: #95A2AB;
+    background-color: #74838E;
 	  border-radius: 0px;
 }
 .hero-unit h1,

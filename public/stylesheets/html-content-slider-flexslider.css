@@ -9,8 +9,9 @@
 *********************************/
 .content-slider.flexslider {
     zoom: 1;
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 1900px;    
+/*    max-width: 100%;
+*/  margin: 0 auto;
     padding: 0;
     clear: both;
     overflow:hidden;
@@ -21,9 +22,11 @@
     position: relative;
     clear: both;
 /*    background: url(../images/70p.png) fixed; PLACEHOLDER IMAGERY*/    
+/*    margin: 0px 0 3% 0;
+    padding: 0% 60px 0 60px;   */ 
     margin: 0px 0 3% 0;
-    padding: 0% 60px 0 60px;
-    background-color:#95A2AB;
+    padding: 0px;
+    background-color:#74838E;
 }
 .content-slider.flexslider .video-wrapper { margin: 0 0 10px 0 }
 
@@ -203,7 +206,7 @@
     }
 	.content-slider.flexslider .img img {
 		width:auto;
-		max-width 100%;
+		max-width: 100%;
 		margin:0 auto;
 	}
     .content-slider.flexslider .caption h2 {
