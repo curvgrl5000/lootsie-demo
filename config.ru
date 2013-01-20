@@ -1,4 +1,3 @@
-#\ -p 4000  REMEMBER TO KILL THIS THING WHEN YOU PUSH TO HEROKU..... ONLY FOR LOCAL DEV.
 
 require 'rubygems'
 require 'bundler'
