@@ -223,7 +223,8 @@ h6.sign-in {
     box-shadow: 0px 2px 16px -6px #222;
     -moz-box-shadow:    0px 2px 16px -6px #222;
       -webkit-box-shadow: 0px 2px 16px -6px #222;
-    
+   width: 140px;
+   height:auto; 
 }
 /* ie 7 fix*/
 .lt-ie8 #logo {position:absolute!important:top:0;left:0;}
