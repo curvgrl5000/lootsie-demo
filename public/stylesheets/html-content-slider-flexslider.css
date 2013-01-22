@@ -35,10 +35,11 @@
 .content-slider.flexslider .caption {
     position: absolute;
     top: 5%;
-    left: 520px;
+    left: 720px;
     width: 35%;
     padding: 15px;
 }
+
 .content-slider.flexslider .img,
 .content-slider.flexslider .video-wrapper {
     float: left;
@@ -189,8 +190,8 @@
 @media only screen and (max-width: 767px) { 
 
 	.content-slider-wrapper {
- 	   margin: 0px 0 2% 0;
- 	   padding:1% 35px;
+ 	   margin: 0 0 3% 0;
+ 	   padding: 0%;
 	}
     .content-slider.flexslider .caption {
         float: none;
@@ -198,6 +199,10 @@
         width: 100%;
         padding-bottom: 10px;
         margin: 0;
+        left: 162px;
+        font-size: 10px;
+        width: 40%;
+        top: 1%;
     }
 	.content-slider.flexslider .img,
     .content-slider.flexslider .video-wrapper {
@@ -211,13 +216,14 @@
 	}
     .content-slider.flexslider .caption h2 {
         text-align: center;
-        font-size: 140%;
+        font-size: 180%;
         line-height: 1.2;
     }
     .content-slider.flexslider p {
         font-size: 100%;
         line-height: 1.5;
         text-align: center;
+        display: none;
     }
     .content-slider.flexslider .more {
         padding-top: 0;
@@ -238,12 +244,14 @@
         width: 30px;
         height: 50px;
         right:5px;
+        top: 15%;
     }
     .content-slider.flexslider .flex-direction-nav a.flex-prev {
         background-position: -110px 50%;
         width: 30px;
         left:5px;
         height: 50px;
+        top: 15%;
     }
     .content-slider.flexslider .flex-control-nav {
 		text-align: center;
@@ -252,6 +260,11 @@
 		width:10px;
 		height:10px;
 	}
+	.row-fluid .thumbnails {
+    margin-left: 0;
+    margin-bottom: 1%;
+    float: left;
+  }
 	
 	/*light style arrows */
 	.content-slider-wrapper.light .flex-direction-nav a.flex-next,
