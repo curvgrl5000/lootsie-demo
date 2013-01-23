@@ -19,7 +19,7 @@
     margin: 0 auto;
 }
 #main-content {
-    padding-top:0;
+    padding-top:2%;
     padding-bottom:2%;
     clear: both;
 }
@@ -447,6 +447,9 @@ img.bottom-shot {
   background-position: 10px 20px;
   padding: 0 0 0 42px;
   margin-bottom: -20px;
+}
+img.absolutecenter {
+  padding:5% 10%;
 }
 
 /*	figures/figcaption

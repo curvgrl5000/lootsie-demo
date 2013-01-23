@@ -78,15 +78,31 @@ li.st-content-wrapper .st-content{
 }
 
 .slide-to-top.fancy li.st-content-wrapper .st-content{
-	padding:2% 3%;
-	border:1px solid #d8dfe5;
-	background:#f7f7f9;
+	padding:3% 3%;
+	border:0px solid #d8dfe5;
 	-webkit-border-radius: 0 0 8px 8px;
 	-moz-border-radius: 0 0 8px 8px;
 	border-radius: 0 0 8px 8px;
 	margin-bottom:4px;
 	margin-top:3px;
 }
+
+.st-content h2 {
+  color: white;;
+}
+
+ .st-content p {
+   padding-bottom: 7%;
+ }
+
+ .toggle-gamer-1 {
+   background: url(../images/CompA-TourShots-Gamer.png) no-repeat;
+   background-size: 100%; 	
+ }
+ .toggle-gamer-2 {
+   background: url(../images/CompA-TourShots-Gamer-2.png) no-repeat;
+   background-size: 100%;
+ }
 
 
 /*	Simple Accordion for unknown length headers (NOT FAQ) see below for faq styles

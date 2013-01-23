@@ -33,7 +33,9 @@ $(function() {
 			
 				$(".slide-to-top.first-pane-open").slideaccordion({
 					oneOpenedItem	: true,
-					open			: 0 // 0 = first pane is open / -1 all are closed
+					top: 400,
+					open,			: 0 // 0 = first pane is open / -1 all are closed 
+				 
 				});
 
 				
