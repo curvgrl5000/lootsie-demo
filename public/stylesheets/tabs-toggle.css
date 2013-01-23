@@ -151,6 +151,7 @@ li.st-content-wrapper .st-content{
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
+	font-size: 25px;
 }
 .s-accordion.fancy .trigger a.active {
 	background:#c7cfd6;
@@ -166,7 +167,7 @@ li.st-content-wrapper .st-content{
 .s-accordion.fancy li.s-wrap div.s-content {
 	padding:2% 3%;
 	border:1px solid #d8dfe5;
-	background:#f7f7f9;
+	/*background:#f7f7f9;*/
 	-webkit-border-radius: 0 0 8px 8px;
 	-moz-border-radius: 0 0 8px 8px;
 	border-radius: 0 0 8px 8px;

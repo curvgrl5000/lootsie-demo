@@ -222,6 +222,7 @@ $(document).ready(function(){
 //  });
 
        $('.s-accordion li.s-wrap div.s-content').hide();
+       $('.s-accordion li.s-wrap div.s-content:first').show();
        $('.s-accordion li.s-wrap .trigger a').click(function(){
           if ($(this).hasClass('active')) {
                $(this).removeClass('active');

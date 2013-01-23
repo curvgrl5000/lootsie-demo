@@ -155,6 +155,14 @@ pre {
     margin-top: 0%;
     margin-bottom: 2%;
 }
+h1.bigheadliine {
+  font-size: 300%;
+  font-weight: 600;
+  font-family: Bariol_regular;
+  line-height: 1.125em;
+  color: #F89828;
+  margin-left: -20px;
+}
 
 /* I don't know why bootstrap has no bottom margin on their ul and ol classes, 
 even though I added them in, they don't override bootsrap, so this is a fix*/
@@ -251,6 +259,7 @@ code { color: #ea4800 }
 
 ul.square li {list-style-type:square}
 ul.circle li {list-style-type:disc}
+ul.no-list li {list-style-type: none}
 
 /* blockquotes / quotes / dropcap
 ================================================== */
@@ -449,7 +458,8 @@ img.bottom-shot {
   margin-bottom: -20px;
 }
 img.absolutecenter {
-  padding:5% 10%;
+  padding: 2% 20%;
+  max-width: 60%;
 }
 
 /*	figures/figcaption
@@ -599,6 +609,9 @@ ul.breadcrumb { background: transparent }
 .border-tb {
     border-bottom: 1px solid #d8dfe5;
     border-top: 1px solid #d8dfe5;
+}
+.iphone-icon {
+  background: transparent url("/images/iphone-icon.png") no-repeat 0 0;
 }
 
 /*  css3 columns on paragraphs only
@@ -1663,6 +1676,12 @@ hr {
     width: 100px!important;
     float: left;
 }
+
+img.absolutecenter {
+  padding: 0 10%;
+  width: 70%;
+}
+
 /* used on the home page to put the .well before the testimonials &
   on the contact page to put the form before the address on desktop */
 .row-fluid.reverse-order .span4,
