@@ -411,6 +411,61 @@ a.btn-inverse {
   -webkit-box-shadow: 10px 13px 25px -8px #222;
   box-shadow: 10px 13px 25px -8px #222;  
 }
+.btn-yellow {
+  background-color: hsl(41, 100%, 46%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffd57a", endColorstr="#eaa000");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ffd57a), to(#eaa000));
+  background-image: -moz-linear-gradient(top, #ffd57a, #eaa000);
+  background-image: -ms-linear-gradient(top, #ffd57a, #eaa000);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffd57a), color-stop(100%, #eaa000));
+  background-image: -webkit-linear-gradient(top, #ffd57a, #eaa000);
+  background-image: -o-linear-gradient(top, #ffd57a, #eaa000);
+  background-image: linear-gradient(#ffd57a, #eaa000);
+  border-color: #eaa000 #eaa000 hsl(41, 100%, 39%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.46);
+  -webkit-font-smoothing: antialiased;
+  padding: 7px 15px;
+  font-size: 17.5px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  font-family: helvetica, sans-serif;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-box-shadow: 10px 13px 25px -8px #222;
+  -webkit-box-shadow: 10px 13px 25px -8px #222;
+  box-shadow: 10px 13px 25px -8px #222;                                                          
+}
+                                                                       
+.btn-green {
+  background-color: #6CA816 !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#A0CE67", endColorstr="#6CA816");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#A0CE67), to(#6CA816));
+  background-image: -moz-linear-gradient(top, #A0CE67, #6CA816);
+  background-image: -ms-linear-gradient(top, #A0CE67, #6CA816);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #A0CE67), color-stop(100%, #6CA816));
+  background-image: -webkit-linear-gradient(top, #A0CE67, #6CA816);
+  background-image: -o-linear-gradient(top, #A0CE67, #6CA816);
+  background-image: linear-gradient(#A0CE67, #6CA816);
+  border-color: #6CA816 #6CA816 hsl(88, 82%, 14%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.66);
+  -webkit-font-smoothing: antialiased;
+  padding: 7px 15px;
+  font-size: 17.5px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  font-family: helvetica, sans-serif;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-box-shadow: 10px 13px 25px -8px #222;
+  -webkit-box-shadow: 10px 13px 25px -8px #222;
+  box-shadow: 10px 13px 25px -8px #222;  
+}
 
 .btn-blue {
   background-color: hsl(210, 64%, 24%) !important;
@@ -1640,7 +1695,6 @@ body {
 .hero-unit h2 { font-size: 250% }
 
 
-
 }/*** end greater than 980 ***/
 
 
@@ -1684,6 +1738,11 @@ body {
 .call-to-action.trad .message {width:65%;text-align:left;margin-right:5%}
 .call-to-action.trad .action {float:right;width:30%}
 
+.btn-developer p, .btn-advertiser p {
+  font-size: 13px;
+  line-height: 16px;
+  padding: 2px 0 0 35px;
+}
 
 }/**** end max width 1100 ****/
 
@@ -1697,6 +1756,41 @@ body {
 @media only screen and (max-width: 980px) {
 
 .clientlogos .slides li {margin:0 1px 0 0;position:relative;width:175px!important;float:left;}
+
+.social li a {
+  width: 45px;
+}
+#footer .btn-inverse .span3 {
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+#footer .row-fluid div.span6, .row-fluid div.span5 {
+  display: inline-block;
+  float: left;
+  width: 44%;
+  margin: 0 4% 4% 0;
+  padding: 0px;
+}
+#footer .social li .socicon::before {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#EEE, #878E91);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+}
+
+/* buttons max-width 980
+================================================== */
+.btn-orange, .btn-yellow, .btn-green, .btn-blue  {
+  font-size: 14.5px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;  
+}
+.btn-developer h1, .btn-advertiser h1 {
+  font-size: 175%;
+}
 
 /* call to action
 ================================================== */
@@ -1879,6 +1973,19 @@ img.absolutecenter {
     font-size: 300%;
     margin-bottom:-3%;
 }
+.btn-orange, .btn-yellow, .btn-green, .btn-blue  {
+  font-size: 10.5px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  padding: 3px 10px;  
+}
+.btn-developer p, .btn-advertiser p {
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0px 10px;
+  text-align: center;
+}
 
 }/**** end max width 767 ****/
 
@@ -1953,7 +2060,7 @@ blockquote {
 .hero-unit h1,.hero-unit h2, 
 .short_headline, .short_headline-right, 
 .call-to-action h3, h1, h2, h3, h4, h5, h6 
-{font-family:"Raleway", Sans-Serif;font-weight:600; text-align: center;}
+{font-family:"Bariol_Regular", Sans-Serif;font-weight:600; text-align: center;}
 
 .call-to-action h3 {
 	font-size:150%;
