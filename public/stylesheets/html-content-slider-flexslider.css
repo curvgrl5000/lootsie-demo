@@ -516,7 +516,7 @@
 }
 
 @media only screen and (min-width: 1441px){ 
-    .content-slider.flexslider img { height: 450px }
+    .content-slider.flexslider img { height: 400px }
     .content-slider.flexslider .caption {
         position: absolute;
         top: 8%;
