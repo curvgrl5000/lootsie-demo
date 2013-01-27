@@ -233,7 +233,7 @@
     .content-slider.flexslider .caption {
         position: absolute;
         top: 5%;
-        left: 365px;
+        left: 378px;
         width: 45%;
         padding: 15px;
     }
@@ -280,7 +280,7 @@
     .content-slider.flexslider .caption {
         position: absolute;
         top: 5%;
-        left: 500px;
+        left: 505px;
         width: 45%;
         padding: 15px;
     }
@@ -377,7 +377,7 @@
     .content-slider.flexslider .caption {
         position: absolute;
         top: 8%;
-        left: 635px;
+        left: 680px;
         width: 45%;
         padding: 15px;
     }
@@ -419,7 +419,7 @@
       display: none;
     }
 }
-@media only screen and (min-width: 1281px) and (max-width: 1440px) { 
+@media only screen and (min-width: 1281px) and (max-width: 1366px) { 
 /*@media only screen and (max-width: 1440px) { 
 */    .content-slider.flexslider img { height: 400px }
     .content-slider.flexslider .caption {
@@ -467,13 +467,13 @@
     }
 }
 
-@media only screen and (min-width: 1281px) and (max-width: 1440px) { 
+@media only screen and (min-width: 1281px) and (max-width: 1366px) { 
 /*@media only screen and (max-width: 1440px) { 
 */    .content-slider.flexslider img { height: 400px }
     .content-slider.flexslider .caption {
         position: absolute;
         top: 8%;
-        left: 700px;
+        left: 725px;
         width: 38%;
         padding: 15px;
     }
@@ -515,7 +515,55 @@
     }
 }
 
-@media only screen and (min-width: 1441px){ 
+@media only screen and (min-width: 1400px) { 
+    .content-slider.flexslider img { height: 350px }
+    .content-slider.flexslider .caption {
+        position: absolute;
+        top: 8%;
+        left: 763px;
+        width: 35%;
+        padding: 15px;
+    }
+    .content-slider.flexslider .caption h1 {
+        font-size: 323%;
+        line-height: .9em;
+        letter-spacing: -1px;
+        margin-bottom: 3%;
+        color:#455560;
+        -moz-opacity: 0.65;
+        opacity: 0.65;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=65);
+        font-weight: 600;
+        font-family: "alternate-gothic-no-3-d",sans-serif;
+    }
+    .content-slider.flexslider .caption h1.big {
+        font-size: 330%;
+        line-height: 1em;
+        margin-bottom: 2%;
+        font-weight: 600;
+        -moz-opacity: 1;
+        opacity: 1;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=1);
+    }
+    .content-slider.flexslider .caption span.big.grey {
+        color: #455560;
+        font-size: 730%;
+        float: left;
+        line-height: .57;
+        font-family: "Bariol_Bold";
+        margin-right: 11px;
+        -moz-opacity: 0.45;
+        opacity: 0.45;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=45);
+        font-family: "alternate-gothic-no-3-d",sans-serif;
+    }
+    .content-slider.flexslider .caption h2 {
+      display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px) { 
     .content-slider.flexslider img { height: 400px }
     .content-slider.flexslider .caption {
         position: absolute;
@@ -525,7 +573,103 @@
         padding: 15px;
     }
     .content-slider.flexslider .caption h1 {
-        font-size: 335%;
+        font-size: 323%;
+        line-height: .9em;
+        letter-spacing: -1px;
+        margin-bottom: 3%;
+        color:#455560;
+        -moz-opacity: 0.65;
+        opacity: 0.65;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=65);
+        font-weight: 600;
+        font-family: "alternate-gothic-no-3-d",sans-serif;
+    }
+    .content-slider.flexslider .caption h1.big {
+        font-size: 330%;
+        line-height: 1em;
+        margin-bottom: 2%;
+        font-weight: 600;
+        -moz-opacity: 1;
+        opacity: 1;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=1);
+    }
+    .content-slider.flexslider .caption span.big.grey {
+        color: #455560;
+        font-size: 730%;
+        float: left;
+        line-height: .57;
+        font-family: "Bariol_Bold";
+        margin-right: 11px;
+        -moz-opacity: 0.45;
+        opacity: 0.45;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=45);
+        font-family: "alternate-gothic-no-3-d",sans-serif;
+    }
+    .content-slider.flexslider .caption h2 {
+      display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px) { 
+    .content-slider.flexslider img { height: 400px }
+    .content-slider.flexslider .caption {
+        position: absolute;
+        top: 8%;
+        left: 1000px;
+        width: 35%;
+        padding: 15px;
+    }
+    .content-slider.flexslider .caption h1 {
+        font-size: 323%;
+        line-height: .9em;
+        letter-spacing: -1px;
+        margin-bottom: 3%;
+        color:#455560;
+        -moz-opacity: 0.65;
+        opacity: 0.65;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=65);
+        font-weight: 600;
+        font-family: "alternate-gothic-no-3-d",sans-serif;
+    }
+    .content-slider.flexslider .caption h1.big {
+        font-size: 330%;
+        line-height: 1em;
+        margin-bottom: 2%;
+        font-weight: 600;
+        -moz-opacity: 1;
+        opacity: 1;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=1);
+    }
+    .content-slider.flexslider .caption span.big.grey {
+        color: #455560;
+        font-size: 730%;
+        float: left;
+        line-height: .57;
+        font-family: "Bariol_Bold";
+        margin-right: 11px;
+        -moz-opacity: 0.45;
+        opacity: 0.45;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=45);
+        font-family: "alternate-gothic-no-3-d",sans-serif;
+    }
+    .content-slider.flexslider .caption h2 {
+      display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2880px) { 
+    .content-slider.flexslider img { height: 425px }
+    .content-slider.flexslider .caption {
+        position: absolute;
+        top: 8%;
+        left: 1011px;
+        width: 35%;
+        padding: 15px;
+    }
+    .content-slider.flexslider .caption h1 {
+        font-size: 323%;
         line-height: .9em;
         letter-spacing: -1px;
         margin-bottom: 3%;
