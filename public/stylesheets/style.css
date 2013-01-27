@@ -1975,10 +1975,12 @@ img.absolutecenter {
 }
 .btn-orange, .btn-yellow, .btn-green, .btn-blue  {
   font-size: 10.5px;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  border-radius: 35px;
-  padding: 3px 10px;  
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  padding: 1px 7px 2px;
+  float: right;
+  margin-right: 40px;  
 }
 .btn-developer p, .btn-advertiser p {
   font-size: 13px;
