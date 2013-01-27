@@ -1978,7 +1978,7 @@ img.absolutecenter {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
-  padding: 1px 7px 2px;
+  padding: 1px 10px;
   float: right;
   margin-right: 40px;  
 }
