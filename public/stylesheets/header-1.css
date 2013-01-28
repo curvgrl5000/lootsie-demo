@@ -632,16 +632,17 @@ body.tall-logo nav.user {margin-left:0;}
 }
 .header .container {
     padding: 0;
-    width: 100%;
+    width: 60%;
 }
 #logo { 
     position: relative;
-    background-position: 40% 40%;
+    background-size: 80%;
     display: block;
-    width: 60%;
-    height: 59px;
-    margin: 0 0 0 78px;
-    padding: 10px 0px!important;  
+    width: 75%;
+    height: 50px;
+    margin: 0 13%;
+    padding: 10px 0px!important;
+    background-position: 50%;    
   }
 /* tall header for taller logo mobile */
 .tall-logo #logo {

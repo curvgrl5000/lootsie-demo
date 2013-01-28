@@ -1783,10 +1783,11 @@ body {
 /* buttons max-width 980
 ================================================== */
 .btn-orange, .btn-yellow, .btn-green, .btn-blue  {
-  font-size: 14.5px;
+  font-size: 12.5px;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
-  border-radius: 35px;  
+  border-radius: 35px;
+  padding: 5px 10px;  
 }
 .btn-developer h1, .btn-advertiser h1 {
   font-size: 175%;
@@ -1920,6 +1921,7 @@ img.absolutecenter {
     font-size: 160%;
     line-height: 1.3;
     margin-bottom: 0;
+    text-align: center;
 }
 .hero-unit {
     padding: 0% 0 2% 0
