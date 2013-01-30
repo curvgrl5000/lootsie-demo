@@ -163,7 +163,6 @@ h1.bigheadline {
   font-family: Bariol_regular;
   line-height: 1.125em;
   color: #F89828;
-  margin-left: -20px;
 }
 
 /* I don't know why bootstrap has no bottom margin on their ul and ol classes, 
@@ -577,8 +576,44 @@ img.bottom-shot {
   margin-bottom: -20px;
 }
 img.absolutecenter {
-  padding: 6% 20%;
+  padding: 0% 20%;
   max-width: 54%;
+}
+
+ul.devices {
+  margin: 0 30%;
+}
+img.iphone-sprite {
+    width: 31px;
+    height: 51px;
+    background: url(../images/iphone-sprite.png) 0 0;
+    float:left;
+    margin-right: 20px;
+    display: inline;
+  }
+img.ipad-sprite {
+    width: 31px;
+    height: 51px;
+    background: url(../images/iphone-sprite.png) 0 0;
+    float:left;
+    margin-right: 20px;
+    display: inline;
+  }
+img.monitor-sprite {
+    width: 31px;
+    height: 51px;
+    background: url(../images/iphone-sprite.png) 0 0;
+    float:left;
+    margin-right: 20px;
+    display: inline;
+  }
+img.android-sprite {
+  width: 31px;
+  height: 51px;
+  background: url(../images/iphone-sprite.png) 0 0;
+  float:left;
+  margin-right: 20px;
+  display: inline;
 }
 
 /*	figures/figcaption

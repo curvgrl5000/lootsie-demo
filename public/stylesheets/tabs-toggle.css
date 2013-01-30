@@ -217,7 +217,8 @@ background-image:url(../images/7p.png);
 }
 .content-tabs .tab a:hover {background:#758694;color:#fff;}
 .content-tabs .tab a.active  {background:#758694;color:#fff;}
-.content-tabs .panels {clear:both;position:relative;padding:2% 3%;border:1px solid #d8dfe5;border-bottom:5px solid #c7cfd6}
+.content-tabs .panels {clear:both;position:relative;padding:2% 0%; border:0px solid #d8dfe5; border-bottom:0px solid #c7cfd6}
+
 
 
 /* clearing all */

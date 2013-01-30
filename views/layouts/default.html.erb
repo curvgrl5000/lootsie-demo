@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/header-1.css">
+    <link rel="stylesheet" href="stylesheets/tabs-toggle.css">
+    
     
     <!-- content slider -->
     <link rel="stylesheet" href="stylesheets/html-content-slider-flexslider.css">
@@ -369,9 +371,15 @@
     			else $(this).find('span').html('&#x25BC;')
     		})
     		
+    		//FOR THE HOME PAGE - this will be copied to scripts.js
     		$('.btn-developer, .btn-advertiser' ).popover({
     		  trigger: 'hover'
     		});
+    		
+        // FOR THE TOUR PAGES - this will be copied to scripts.js
+        $('ul.devices li a').tooltip({
+          trigger: 'hover'
+        });
     		
     //		$('.btn-developer, .btn-advertiser' ).tooltip({
     //		  trigger: 'hover'
