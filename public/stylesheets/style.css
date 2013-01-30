@@ -263,6 +263,9 @@ ul.square li {list-style-type:square}
 ul.circle li {list-style-type:disc}
 ul.no-list li {list-style-type: none}
 
+.align-left {float: left;}
+.align-right {float: right;} 
+
 /* blockquotes / quotes / dropcap
 ================================================== */
 blockquote {
@@ -574,8 +577,8 @@ img.bottom-shot {
   margin-bottom: -20px;
 }
 img.absolutecenter {
-  padding: 2% 20%;
-  max-width: 60%;
+  padding: 6% 20%;
+  max-width: 54%;
 }
 
 /*	figures/figcaption

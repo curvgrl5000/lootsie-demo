@@ -144,7 +144,7 @@ li.st-content-wrapper .st-content{
 	padding:5px 35px 5px 10px;
 	position:relative;
 	text-decoration:none;
-	background:#a3b0bb;
+	background: #939BA1; /*was #a3b0bb */
 	color:#fff;
 	border:0px;
 	margin-bottom:4px;
@@ -154,7 +154,13 @@ li.st-content-wrapper .st-content{
 	font-size: 25px;
 }
 .s-accordion.fancy .trigger a.active {
-	background:#c7cfd6;
+	background: #6A737B; /* was #c7cfd6 */
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+}
+.s-accordion.fancy .trigger a:hover {
+	background: #6A737B; /* was #c7cfd6 */
 	-webkit-border-radius: 8px 8px 0 0;
 	-moz-border-radius: 8px 8px 0 0;
 	border-radius: 8px 8px 0 0;
