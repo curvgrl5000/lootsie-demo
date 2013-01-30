@@ -165,7 +165,7 @@ li.st-content-wrapper .st-content{
 .s-accordion.fancy .trigger i {position:absolute; right:10px;top:7px; }
 .s-accordion.fancy.faq .trigger i {position:absolute; right:auto;left:10px;top:7px; }
 .s-accordion.fancy li.s-wrap div.s-content {
-	padding:2% 3%;
+	padding:3% 3%;
 	border:1px solid #d8dfe5;
 	/*background:#f7f7f9;*/
 	-webkit-border-radius: 0 0 8px 8px;

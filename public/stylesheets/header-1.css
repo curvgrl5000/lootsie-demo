@@ -475,7 +475,7 @@ h6.sign-in {
     *background-color: transparent;
 }
 #main_menu li.active ul li.active a {
-    background-color: #53a3b7;
+    background-color: #FFD24F;
 }
 #main_menu ul li ul li {
     background: #6BB7DD; /* second level bg color */
