@@ -581,38 +581,39 @@ img.absolutecenter {
 }
 
 ul.devices {
-  margin: 0 30%;
+  margin: 0 27%;
+  list-style: none;
 }
-img.iphone-sprite {
+.iphone-sprite {
     width: 31px;
     height: 51px;
     background: url(../images/iphone-sprite.png) 0 0;
     float:left;
-    margin-right: 20px;
+    margin-right: 15px;
     display: inline;
-  }
-img.ipad-sprite {
-    width: 31px;
+}
+.ipad-sprite {
+    width: 40px;
     height: 51px;
-    background: url(../images/iphone-sprite.png) 0 0;
+    background: url(../images/ipad-sprite.png) 0 0;
     float:left;
-    margin-right: 20px;
+    margin-right: 15px;
     display: inline;
   }
-img.monitor-sprite {
-    width: 31px;
+.monitor-sprite {
+    width: 58px;
     height: 51px;
-    background: url(../images/iphone-sprite.png) 0 0;
+    background: url(../images/monitor-sprite.png) 0 0;
     float:left;
-    margin-right: 20px;
+    margin-right: 15px;
     display: inline;
   }
-img.android-sprite {
+.android-sprite {
   width: 31px;
   height: 51px;
-  background: url(../images/iphone-sprite.png) 0 0;
+  background: url(../images/android-sprite.png) 0 0;
   float:left;
-  margin-right: 20px;
+  margin-right: 0px;
   display: inline;
 }
 
@@ -2043,6 +2044,11 @@ img.absolutecenter {
   line-height: 16px;
   padding: 0px 10px;
   text-align: center;
+}
+
+ul.devices {
+  margin: 0 10% 0 15%;
+  list-style: none;
 }
 
 }/**** end max width 767 ****/
