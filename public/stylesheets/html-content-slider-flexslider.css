@@ -238,7 +238,7 @@
     .content-slider.flexslider .caption {
       float: none;
       clear: both;
-      padding-bottom: 10px;
+      padding: 10px 15px;
       margin: 0;
       left: 45%;
       font-size: 70%; 
@@ -267,10 +267,10 @@
     }
     .content-slider.flexslider .caption h2 {
       text-align: left;
-      font-size: 200%; /*170*/
-      line-height: 1;
+      font-size: 250%; 
+      line-height: .95;
       font-family: "alternate-gothic-no-3-d",sans-serif;
-      padding-bottom: 2%;
+      padding-bottom: 1%;
     }
     .content-slider.flexslider p {
       font-size: 100%;
@@ -343,7 +343,7 @@
         padding: 15px;
     }
     .content-slider.flexslider .caption h1 {
-        font-size: 230%;
+        font-size: 217%;
         line-height: .9em;
         letter-spacing: 0px;
         margin-bottom: 1%;
@@ -501,7 +501,7 @@
         position: absolute;
         top: 8%;
         left: 680px;
-        width: 45%;
+        width: 42%;
         padding: 15px;
     }
     .content-slider.flexslider img { height: 350px }
@@ -601,7 +601,7 @@
         padding: 15px;
     }
     .content-slider.flexslider .caption h1 {
-        font-size: 320%;
+        font-size: 283%;
         line-height: .9em;
         letter-spacing: -1px;
         margin-bottom: 3%;
@@ -648,7 +648,7 @@
         padding: 15px;
     }
     .content-slider.flexslider .caption h1 {
-        font-size: 323%;
+        font-size: 269%;
         line-height: .9em;
         letter-spacing: -1px;
         margin-bottom: 3%;
@@ -692,11 +692,11 @@
         position: absolute;
         top: 8%;
         left: 840px;
-        width: 35%;
+        width: 37%;
         padding: 15px;
     }
     .content-slider.flexslider .caption h1 {
-        font-size: 323%;
+        font-size: 305%;
         line-height: .9em;
         letter-spacing: -1px;
         margin-bottom: 3%;

@@ -1847,8 +1847,8 @@ ul.devices {
 }
 h1.tour {
   text-align: left;
-  line-height: 30px;
-  padding-top: 5%;
+  line-height: 20px;
+  padding-top: 2%;
   color: white;
   font-size: 162%;
 }
@@ -1929,6 +1929,29 @@ ul.devices {
 
 /*  various resets max-width 767px
 ================================================== */
+
+h1 {
+font-size: 280%;
+}
+
+h1.tour {
+  text-align: left;
+  line-height: 35px;
+  padding-top: 2%;
+  color: white;
+  font-size: 300%;
+}
+h1.bigheadline {
+  font-size: 400%;
+  text-align: center;
+}
+
+p {
+  margin-top: 0%;
+  margin-bottom: 2%;
+  font-size: 185%;
+}
+
 .thumbnails {
 	margin-left: 0;
 }
@@ -1947,8 +1970,8 @@ hr {
 }
 
 img.absolutecenter {
-  padding: 0 22%;
-  width: 70%;
+  padding: 0 26%;
+  width: 40%;
 }
 
 /* used on the home page to put the .well before the testimonials &
@@ -2084,7 +2107,7 @@ img.absolutecenter {
   border-radius: 25px;
   padding: 1px 10px;
   float: right;
-  margin-right: 26px;  
+  margin-right: 2%;  
 }
 .btn-developer p, .btn-advertiser p {
   font-size: 13px;
@@ -2094,7 +2117,7 @@ img.absolutecenter {
 }
 
 ul.devices {
-  margin: 0 10% 0 15%;
+  margin: 0 30%;
   list-style: none;
 }
 
@@ -2139,6 +2162,12 @@ h6 + .short_headline {margin-top: 5%}
 
 blockquote p {line-height: 1.4}
 .dropcap {font-size: 30px;line-height: 30px;}
+
+h1.bigheadline {
+  font-size: 230%;
+  text-align: center;
+}
+
 
 /*** hero unit adjustment max-width 500px***/
 .hero-unit h1,
@@ -2210,7 +2239,10 @@ p p, ul, form, ol, pre {line-height: 1;}
   margin: 0 5% 0% 0;
   padding: 0px;
 }
-
+ul.devices {
+  margin: 0 15%;
+  list-style: none;
+}
 
 
 }/**** end max width 500px ****/
