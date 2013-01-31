@@ -598,7 +598,7 @@ a:hover.iphone-sprite{
 a.ipad-sprite {
     width: 40px;
     height: 51px;
-    background: url(../images/ipad-sprite.png) -40px 0;
+    background: url(../images/iPad-sprite.png) -40px 0;
     float:left;
     margin-right: 15px;
     display: inline;
@@ -609,7 +609,7 @@ a:hover.ipad-sprite{
 a.monitor-sprite {
     width: 57px;
     height: 51px;
-    background: url(../images/monitor-sprite.png) -56px 1px;
+    background: url(../images/Monitor-sprite.png) -56px 1px;
     float:left;
     margin-right: 15px;
     display: inline;
@@ -620,7 +620,7 @@ a:hover.monitor-sprite{
 a.android-sprite {
   width: 32px;
   height: 51px;
-  background: url(../images/android-sprite.png) -32px -1px;
+  background: url(../images/Android-sprite.png) -32px -1px;
   float:left;
   margin-right: 0px;
   display: inline;
