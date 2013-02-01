@@ -96,11 +96,19 @@ li.st-content-wrapper .st-content{
  }
 
  .toggle-gamer-1 {
-   background: url(../images/CompA-TourShots-Gamer.png) no-repeat;
+   background: url(../images/tour-shot-1.png) no-repeat;
    background-size: 100%; 	
  }
  .toggle-gamer-2 {
-   background: url(../images/CompA-TourShots-Gamer-2.png) no-repeat;
+   background: url(../images/tour-shot-2.png) no-repeat;
+   background-size: 100%;
+ }
+ .toggle-gamer-3 {
+   background: url(../images/tour-shot-3.png) no-repeat;
+   background-size: 100%;
+ }
+ .toggle-gamer-4 {
+   background: url(../images/tour-shot-4.png) no-repeat;
    background-size: 100%;
  }
 
