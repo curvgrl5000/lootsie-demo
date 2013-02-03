@@ -19,8 +19,8 @@
     margin: 0 auto;
 }
 #main-content {
-    padding-top:1%;
-    padding-bottom:1%;
+    padding-top:2%;
+    padding-bottom:2%;
     clear: both;
 }
 
@@ -52,6 +52,12 @@ body {
 }
 .dark-grey {
   color: #455560;
+}
+.orange {
+  color: #F89828;
+}
+.blue {
+  color: #57ACE0;
 }
 
 /*	Text Color
@@ -1272,7 +1278,7 @@ a.thumbnail:hover {
     margin: 0;
     padding: 0;
     position: relative;
-    left: 0px;
+    left: -7px;
 }
 .social li {
     display: inline-block;
@@ -2143,7 +2149,7 @@ h3 {font-size: 120%}
 h4 {font-size: 110%}
 h5 {font-size: 100%}
 h6 {font-size: 95%}
-.short_headline-right, .short_headline { font-size: 80%;}
+.short_headline-right, .short_headline { font-size: 160%;}
 
 p + .short_headline,
 .short_headline-right,
@@ -2200,6 +2206,9 @@ blockquote {
 .hero-unit h1,.hero-unit h2, 
 .short_headline, .short_headline-right, 
 .call-to-action h3, h1, h2, h3, h4, h5, h6 
+{font-family:"Bariol_Regular", Sans-Serif;font-weight:600; text-align: left;}
+
+.hero-unit h1,.hero-unit h2 
 {font-family:"Bariol_Regular", Sans-Serif;font-weight:600; text-align: center;}
 
 h1.bigheadline {margin-left: 0px;}  
