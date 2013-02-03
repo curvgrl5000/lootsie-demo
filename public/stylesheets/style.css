@@ -57,15 +57,21 @@ body {
   color: #F89828;
 }
 .blue {
-  color: #57ACE0;
+  color: #57ACE0; /*Lootsie Primary Blue*/
+}
+.yellow {
+  color: #FFD24F; /*Lootsie Primary Yellow */
+}
+.green {
+  color: #A0CE67; /*Lootsie Primary Green */
 }
 
 /*	Text Color
-========================================================== */
+========================================================== */                                                                     
 body, html, a { color: #576674 }
 h1, h2, h3, h4, h5, h6, .slide-to-top .trigger { color: #758694 }
 h1 a, h2 a, h3 a, h5 a, h4 a { color: inherit }
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, .slide-to-top .trigger:hover { color: #0290b3 }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, .slide-to-top .trigger:hover { color: #C6630A; }  
 
 /* Font Selection
 ================================================== */
@@ -76,9 +82,9 @@ blockquote, .statement, .header .tagline { font-family: Garamond, "Apple Garamon
 
 /* Link Styles
 ================================================== */
-a { text-decoration: underline }
+a { text-decoration: none; }
 a:hover {
-    color: #53a3b7;
+    color: #57ACE0; /*Lootsie Primary Blue*/
     text-decoration: none;
 }
 p a,
@@ -334,8 +340,8 @@ q q:after { content: "\2019" }
 
 .btn-advertiser {
 	color:#fff;
-	background:#57ACE0;
-	border: 1px solid #57ACE0;
+	background:#57ACE0;  /*Lootsie Primary Blue*/
+	border: 1px solid #57ACE0;  /*Lootsie Primary Blue*/
 	text-align: left;
 	margin-bottom: 3%;
 	-moz-box-shadow: 6px 8px 21px -5px #777;
@@ -503,6 +509,32 @@ a.btn-inverse {
   -moz-box-shadow: 10px 13px 25px -8px #222;
   -webkit-box-shadow: 10px 13px 25px -8px #222;
   box-shadow: 10px 13px 25px -8px #222;  
+}
+
+.btn-primary-orange {
+  background-color: #C6630A !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffad32", endColorstr="#cc7a00");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#E89425), to(#C6630A));
+  background-image: -moz-linear-gradient(top, #E89425, ##C6630A);
+  background-image: -ms-linear-gradient(top, #E89425, ##C6630A);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E89425), color-stop(100%, #C6630A));
+  background-image: -webkit-linear-gradient(top, #E89425, #C6630A);
+  background-image: -o-linear-gradient(top, #E89425, #C6630A);
+  background-image: linear-gradient(#E89425, #C6630A);
+  border-color: #CC7A00 #CC7A00 #B36B00;
+  color: white !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.26);
+  -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-family: helvetica, sans-serif;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-box-shadow: 2px 2px 6px -2px #222;
+  -webkit-box-shadow: 2px 2px 6px -2px #222;
+  box-shadow: 2px 2px 6px -2px #222; 
 }
 
 .btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
@@ -1473,7 +1505,7 @@ font-size:70%!important;
 	height: 50px;
 	display: block;
 	margin: 0;
-	background:#57ACE0 url(../images/top.png) no-repeat center center;
+	background:#57ACE0 url(../images/top.png) no-repeat center center;   /*Lootsie Primary Blue*/
 	-webkit-border-radius: 6px;
 	-moz-border-radius:6px;
 	border-radius: 6px;
@@ -1540,7 +1572,7 @@ font-size:70%!important;
 .contact-page .icon-map-marker:before {
     font-size: 50px;
     line-height: 1;
-    color: #53a3b7;
+    color: #57ACE0; /*Lootsie Primary Blue*/
 }
 .contact-page textarea {height:250px;}
 
