@@ -17,9 +17,11 @@
     <!-- CSS / SASS & COMPASS ================ --> 
     <!-- <link rel="stylesheet" href="/stylesheets/screen.css"> This is more the Rails Universe-taking it out for now-->
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/portfolio.css"> 
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/header-1.css">
     <link rel="stylesheet" href="stylesheets/tabs-toggle.css">
+    
     
     
     <!-- content slider -->
@@ -162,10 +164,10 @@
     					</ul>
     				</li>    				
     				<li class="parent"><a href="javascript:void(0)">Blog<i></i></a>
-    				<li class="parent"><a href="javascript:void(0)">Jobs<i></i></a>
+    				<li class="parent"><a href="/_jobs.html.erb">Jobs<i></i></a>
     				<li class="parent"><a href="javascript:void(0)">Press<i></i></a>
     					<ul>
-    						<li><a href="/">Something To Come</a></li>
+    						<li><a href="/_press.html.erb">Press Notes</a></li>
     					</ul>
     				</li>
     				<li class="parent"><a href="javascript:void(0)">Templates<i></i></a>
@@ -244,7 +246,7 @@
     						  <a href="/_support.html">Support</a>
     						</li>
     						<li>
-    					    <a href="#">Faqs</a>
+    					    <a href="/_faqs.html">Faqs</a>
     					  </li>
     					  <li>
     					    <a href="/_contact-us.html">Contact Us</a>
@@ -358,7 +360,10 @@
     
     <!-- Validate plugin --> 
     <script src="./javascripts/jquery.validate.min.js"></script> 
-    <script src="./javascripts/fancybox/source/jquery.fancybox.pack.js"></script><!--main fancybox--> 
+    <script src="./javascripts/fancybox/source/jquery.fancybox.pack.js"></script><!--main fancybox-->
+    <script src="./javascripts/fancybox/source/helpers/jquery.fancybox-media.js"></script><!--fancybox media--> 
+    <script src="./javascripts/fancybox/source/helpers/jquery.fancybox-buttons.js"></script><!--fancybox buttons--> 
+    <script src="./javascripts/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script><!--fancybox thumbs--> 
     <script src="./javascripts/fancybox_init.js"></script><!--initialize fancybox--> 
     
     
@@ -404,6 +409,27 @@
     	    useCSS: false //thins type if true
         });
     
+    
+    //how much items per page to show
+        var show_per_page = 5; 
+        //getting the amount of elements inside content div
+        var number_of_items = $('#content').children().size();
+        //calculate the number of pages we are going to have
+        var number_of_pages = Math.ceil(number_of_items/show_per_page);
+
+        //set the value of our hidden input fields
+        $('#current_page').val(0);
+        $('#show_per_page').val(show_per_page);
+
+        //now when we got all we need for the navigation let's make it '
+
+        /* 
+        what are we going to have in the navigation?
+            - link to previous page
+            - links to specific pages
+            - link to next page
+        */
+        
     });
     
     </script>

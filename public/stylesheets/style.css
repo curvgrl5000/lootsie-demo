@@ -56,6 +56,9 @@ body {
 .orange {
   color: #F89828;
 }
+.dark-orange {
+  color: #C6630A;
+}
 .blue {
   color: #57ACE0; /*Lootsie Primary Blue*/
 }
@@ -78,11 +81,11 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, .slide-to-top .trigger:hover { c
 body, input, textarea, button { font-family: "Ubuntu", Sans-Serif;} /* http://css-tricks.com/sans-serif/ */
 .hero-unit h1,.hero-unit h2, .short_headline, .call-to-action h3, h1, h2, h3, h4, h5, h6 {font-family:"Bariol_Regular", Sans-Serif;font-weight:300}
 .short_headline, .call-to-action h3, h2, h3, h4, h5, h6 {font-weight:500}
-blockquote, .statement, .header .tagline { font-family: Garamond, "Apple Garamond", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;}
+blockquote, .statement, .header .tagline { font-family: "Bariol_Regular", "Ubuntu", Sans-Serif;}
 
 /* Link Styles
 ================================================== */
-a { text-decoration: none; }
+a { text-decoration: none; color: #C6630A; }
 a:hover {
     color: #57ACE0; /*Lootsie Primary Blue*/
     text-decoration: none;
@@ -172,7 +175,7 @@ pre {
 h1.bigheadline {
   font-size: 300%;
   font-weight: 600;
-  font-family: Bariol_regular;
+  font-family: "Bariol_Regular", Sans-Serif;
   line-height: 1.125em;
   color: #F89828;
 }
@@ -293,15 +296,15 @@ blockquote {
     line-height: 175%;
 }
 blockquote p {
-    font-size: 100%;
-    line-height: 175%;
+font-size: 120%;
+line-height: 160%;
 }
 blockquote p:last-child { margin-bottom: 0px }
 blockquote footer {
     clear: both;
     display: block;
     text-align: right;
-    font-size: 80%;
+    font-size: 100%;
 }
 blockquote footer:before { content: "\2014 \0020" }
 q {
@@ -393,7 +396,7 @@ a.btn-inverse {
 .btn-inverse h6.tiny, .btn-inverse h5 {
   line-height: 1;
   color: white;
-  font-family: "bariol_regular";
+  font-family: "Bariol_Regular", Sans-Serif;
   letter-spacing: .5px;
   float: left;
   margin-left: 4%;
@@ -1688,6 +1691,7 @@ font-size:70%!important;
 .rotating-testimonials .tabs li {
     background: #4c5966;
     border: none;
+    border-radius: 5px;
     display: inline-block;
     *display: inline;
     height: 8px;
@@ -2256,7 +2260,7 @@ p p, ul, form, ol, pre {line-height: 1;}
 #footer .btn-inverse h6.tiny, .btn-inverse h5 {
   line-height: 1;
   color: white;
-  font-family: "bariol_regular";
+  font-family: "Bariol_Regular", Sans-Serif;
   letter-spacing: .5px;
   margin-left: 0;
   font-weight: bold;
