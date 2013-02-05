@@ -160,7 +160,7 @@ h5,
 h6 { line-height: 1.4 }
 h1,
 h2,
-h3 { line-height: 1.2, margin-bottom: 1%; }
+h3 { line-height: 1.2; margin-bottom: 1%; }
 h1 { margin-top: 0 }
 h1.tour {text-align: left; line-height: 30px; padding-top:2%; color: #fff; }
 
@@ -363,8 +363,8 @@ q q:after { content: "\2019" }
 
 .btn-developer {
 	color:#758694;
-	background:#FFD24F;
-  border: 1px solid #FFD24F;
+	background:#FFD24F;  /*Lootsie Primary Yellow */  
+  border: 1px solid #FFD24F;  /*Lootsie Primary Yellow */  
 	text-align: left;
 	margin-bottom: 3%;
 	-moz-box-shadow: 6px 8px 21px -5px #777;
@@ -461,7 +461,7 @@ a.btn-inverse {
 .btn-green {
   background-color: #6CA816 !important;
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#A0CE67", endColorstr="#6CA816");
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#A0CE67", endColorstr="#6CA816");    /*  #A0CE67  Lootsie Primary Green */ 
   background-image: -khtml-gradient(linear, left top, left bottom, from(#A0CE67), to(#6CA816));
   background-image: -moz-linear-gradient(top, #A0CE67, #6CA816);
   background-image: -ms-linear-gradient(top, #A0CE67, #6CA816);
@@ -544,6 +544,115 @@ a.btn-inverse {
   border-color: transparent;
   color: #999;
 }
+
+.btn-primary {
+  color: white;
+  background: #57ACE0;    /*Lootsie Primary Blue*/
+  border-color: #57ACE0;  /*Lootsie Primary Blue*/ 
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+  color: white;
+  background-color: #7CB9DE;
+  border-color: #7CB9DE;
+}
+
+.btn-info {
+  color: white;
+  background: #7CB9DE;
+  border-color: #7CB9DE;
+}
+
+.btn-info:hover, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
+  color: white;
+  background-color: #57ACE0;  /*Lootsie Primary Blue*/   
+  border-color: ##57ACE0;    /*Lootsie Primary Blue*/    
+}
+
+.btn-success {
+  color: white;
+  background: #A0CE67;    /*  Lootsie Primary Green */
+  border-color: #A0CE67;  /*  Lootsie Primary Green */ 
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+  color: white;
+  background-color: #51A351;
+  border-color: #51A351;
+}
+.btn-warning:hover, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
+  color: white;
+  background: #F89406;
+  border-color: #FAA732;
+}
+
+.btn-danger:hover, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
+  color: white;
+  background-color: #BD362F;
+  border-color: #BD362F;
+}
+
+/*badges and lables  */ 
+.label-success, .badge-success {
+  background-color: #A0CE67;
+}
+.label, .badge {
+  padding: 2px 8px;
+}
+.label-info, .badge-info {
+  background-color: #57ACE0; /*Lootsie Primary Blue*/ 
+}
+
+/* nav-pills  */
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+  color: white;
+  background-color: #57ACE0; /*Lootsie Primary Blue*/
+}
+
+/* progress bar styles
+================================================== */
+
+.progress-info.progress-striped .bar, .progress-striped .bar-info {
+  background-color: #57ACE0;  /*Lootsie Primary Blue*/
+  background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255, 255, 255, 0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255, 255, 255, 0.15)),
+  color-stop(0.75,rgba(255, 255, 255, 0.15)),color-stop(0.75,transparent),to(transparent));
+  background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+  background-image: -moz-linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+}
+
+.progress-success.progress-striped .bar, .progress-striped .bar-success {
+  background-color: #A0CE67;  /*  Lootsie Primary Green */ 
+  background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255, 255, 255, 0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255, 255, 255, 0.15)),color-stop(0.75,
+    rgba(255, 255, 255, 0.15)),color-stop(0.75,transparent),to(transparent));
+  background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+  background-image: -moz-linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+}
+
+.progress-warning.progress-striped .bar, .progress-striped .bar-warning {
+  background-color: #FFD24F;  /*Lootsie Primary Yellow */  
+  background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255, 255, 255, 0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255, 255, 255, 0.15)),
+  color-stop(0.75,rgba(255, 255, 255, 0.15)),color-stop(0.75,transparent),to(transparent));
+  background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+  background-image: -moz-linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.15) 25%,transparent 25%,transparent 50%,
+  rgba(255, 255, 255, 0.15) 50%,rgba(255, 255, 255, 0.15) 75%,transparent 75%,transparent);
+}
+
 /*	accessibility
 ================================================== */
 .visuallyhidden,.search form label { border: 0; clip: rect(0000); height: 1px; overflow: hidden; position: absolute; width: 1px; margin: -1px; padding: 0; }
@@ -798,7 +907,97 @@ ul.breadcrumb { background: transparent }
   margin-bottom: 5px;
 }
 .brand {line-height:1;text-decoration:none;}
+
+/* navbar styles
+================================================== */
+
 .navbar a, .nav a {text-decoration:none;}
+
+.navbar-inner {
+  min-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #57ACE0;  /*Lootsie Primary Blue*/
+  border: 1px solid #C7CFD6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;    
+}
+.navbar .nav > li > a {
+  float: none;
+  padding: 15px 15px 15px;
+  color: white;
+  text-decoration: none;
+  -moz-box-shadow: 7px 2px 20px -8px #222;
+  -webkit-box-shadow: 7px 2px 20px -8px #222;
+  box-shadow: 7px 2px 20px -8px #222;
+  border-radius: 0px 10px 10px 0;   
+}
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+  background-color: #FFD24F;
+  color: white;
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+  background-color: #FFD24F;
+  color: #576674;
+  text-decoration: none; 
+}
+
+.navbar .brand {
+  float: left;
+  display: block;
+  padding: 10px 20px 10px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: white; 
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+  color: #576674;
+  text-decoration: none;
+  background-color: #FFD24F; /*Lootsie Primary Yellow*/
+  border-radius: 0px 10px 10px 0; 
+}
+
+.navbar-search .search-query {
+  margin-bottom: 0;
+  padding: 4px 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  width: 150px; 
+}
+.navbar .divider-vertical {
+  height: 40px;
+  margin: 0 9px;
+  border-left: 0px solid #C7CFD6;
+  border-right: 1px solid transparent;   
+}
+
+.navbar-search {
+  position: relative;
+  float: left;
+  margin: 10px 0 10px 5px;
+  margin-bottom: 0;  
+}
+
+.nav-list > .active > a, .nav-list > .active > a:hover {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #57ACE0;  /*Lootsie Primary Blue*/    
+}
+
+.navbar-inverse .navbar-inner {
+  background-color: #576674;
+  border: none;  
+}
+
 
 /* misc atmosphere styles
 ================================================== */
@@ -821,6 +1020,13 @@ ul.breadcrumb { background: transparent }
 }
 .iphone-icon {
   background: transparent url("/images/iphone-icon.png") no-repeat 0 0;
+}
+
+.pagination ul > li > a:hover, .pagination ul > .active > a, .pagination ul > .active > span {
+  background-color: #A3B0BB;
+  background-image: none;
+  color: white;
+  border-radius: 5px;   
 }
 
 /*  css3 columns on paragraphs only
@@ -889,7 +1095,7 @@ input[type="text"], input[type="password"], input[type="search"], input[type="em
     color:#a3b0bb;
 }
 .hero-unit .brand {
-    color: #FFD24F;
+    color: #FFD24F; /*Lootsie Primary Yellow */  
     font-weight: 600;
     line-height: 1.35;
     padding: 2% 0%; 
@@ -1028,7 +1234,7 @@ input[type="text"], input[type="password"], input[type="search"], input[type="em
 }
 .sidebar-left {
 	background-image: url(../images/rule.png);
-	background-position: 23.5% 0;
+	background-position: 55.5% 0;
 	background-repeat: repeat-y;
 }
 .sidebar-left .secondary-column .widget {padding-right:20px;}
@@ -1291,7 +1497,7 @@ a.thumbnail:hover {
 }
 #footer a:hover { 
     text-decoration: none;
-    color: #FFD24F; 
+    color: #FFD24F; /*Lootsie Primary Yellow */   
 }
 #footer h4 {
     margin-bottom: 10px;
@@ -1304,7 +1510,7 @@ a.thumbnail:hover {
 #footer section { padding: 0 0 15px 0 }
 
 #footer h4 {
-  color:#FFD24F;
+  color:#FFD24F; /*Lootsie Primary Yellow */  
 }
 
 /*social icons list on a row in footer */
@@ -1514,7 +1720,7 @@ font-size:70%!important;
 	border-radius: 6px;
 }
 .backToTop a:hover {
-	background-color:#9bd9e9;
+	background-color:#7CB9DE;
 }
 
 /*	PAGES

@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/header-1.css">
     <link rel="stylesheet" href="stylesheets/tabs-toggle.css">
+    <link rel="stylesheet" href="stylesheets/hero-equal-thumb-gallery.css">
     
     
     
@@ -349,7 +350,6 @@
 
     <!-- JS JQuery ================ --> 
     <script type="text/javascript" src="./javascripts/bootstrap.min.js"></script><!--transitions, tooltips, popover, buttons, modals, alert messages-->
-    <script type="text/javascript" src="./javascripts/bootstrap-progressbar.min.js"></script><!--progress bar alerts-->
     <script type="text/javascript" src="./javascripts/ddsmoothmenu-min.js"></script><!-- desktop edge detect menu -->
     <script type="text/javascript" src="./javascripts/jquery.dcjqaccordion.2.7.min.js"></script><!-- mobile multi-level accordion menu -->
     <script type="text/javascript" src="./javascripts/jquery.easytabs.min.js"></script><!-- tabs/testimonials -->
@@ -357,7 +357,9 @@
     <script type="text/javascript" src="./javascripts/jquery.easing-1.3.min.js"></script><!-- slide to top accordion toggle -->
     <script type="text/javascript" src="./javascripts/jquery.flexslider-min.js"></script><!--flexslider content slider twitter slider and initializations-->  
     <script type="text/javascript" src="./javascripts/responsive-tables.js"></script><!--responsive table-->
-    <script type="text/javascript" src="./javascripts/jquery.fitvid.js"></script><!-- responsive videos -->
+    <script type="text/javascript" src="./javascripts/jquery.fitvid.js"></script><!-- responsive videos --> 
+    
+    <script type="text/javascript" src="./javascripts/bootstrap-progressbar.min.js"></script><!--progress bar alerts-->
     
     <!-- Validate plugin --> 
     <script src="./javascripts/jquery.validate.min.js"></script> 
@@ -422,14 +424,9 @@
         $('#current_page').val(0);
         $('#show_per_page').val(show_per_page);
 
-        //now when we got all we need for the navigation let's make it '
-
-        /* 
-        what are we going to have in the navigation?
-            - link to previous page
-            - links to specific pages
-            - link to next page
-        */
+        //the progressbar script '
+        $('.progress .bar').progressbar();
+        
         
     });
     
