@@ -411,18 +411,6 @@
     	    controlNav: false,
     	    useCSS: false //thins type if true
         });
-    
-    
-    //how much items per page to show
-        var show_per_page = 5; 
-        //getting the amount of elements inside content div
-        var number_of_items = $('#content').children().size();
-        //calculate the number of pages we are going to have
-        var number_of_pages = Math.ceil(number_of_items/show_per_page);
-
-        //set the value of our hidden input fields
-        $('#current_page').val(0);
-        $('#show_per_page').val(show_per_page);
 
         //the progressbar script '
         $('.progress .bar').progressbar();
