@@ -1869,6 +1869,13 @@ font-size:70%!important;
 	border-bottom:1px dotted #a3b0bb;
 }
 
+/*	jobs page
+================================================== */ 
+#content {
+  height: 250px;
+}
+
+
 /*	testimonial page
 ================================================== */
 .testimonial-gallery li {  

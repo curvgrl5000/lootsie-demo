@@ -156,15 +156,15 @@
     				</li>
     				<li class="parent"><a href="javascript:void(0)">Games<i></i></a>
     					<ul>
-    						<li><a href="/">Something To Come</a></li>
+    						<li><a href="/_games.html.erb">Play, Win and Earn</a></li>
     					</ul>
     				</li>
     				<li class="parent"><a href="javascript:void(0)">Rewards<i></i></a>
     					<ul>
-    						<li><a href="/">Something To Come</a></li>
+    						<li><a href="/_rewards.html.erb">Discover Great Rewards</a></li>
     					</ul>
     				</li>    				
-    				<li class="parent"><a href="javascript:void(0)">Blog<i></i></a>
+            <!-- <li class="parent"><a href="javascript:void(0)">Blog<i></i></a>  This has been commented out per client-->  
     				<li class="parent"><a href="/_jobs.html.erb">Jobs<i></i></a>
     				<li class="parent"><a href="javascript:void(0)">Press<i></i></a>
     					<ul>
@@ -174,10 +174,11 @@
     				<li class="parent"><a href="javascript:void(0)">Templates<i></i></a>
     					<ul>
     						<li><a href="/_typography-elements.html.erb">Typography & Elements</a></li>
-    						<li><a href="hero-equal-height-columns.html">Hero Equal Height Cols</a></li>
+    						<li><a href="/_hero-equal-height-columns.html.erb">Hero Equal Height Cols</a></li>
     						<li><a href="/_misc-components.html.erb">Misc Bootstrap Stuff</a></li>
-    						<li><a href="bootstrap-thumbnails.html">Bootstrap's Thumbnails</a></li>
-    						<li><a href="rotating-testimonials-feature.html">Rotating Testimonials</a></li>
+    						<li><a href="/_bootstrap-thumbnails.html.erb">Bootstrap's Thumbnails</a></li>
+    						<li><a href="/_rotating-testimonials-feature.html">Rotating Testimonials</a></li>
+    						<li><a href="/_testimonials.html.erb">Testimonials</a></li>
     					</ul>
     				</li>
     			</ul>
@@ -230,10 +231,10 @@
   						    <a href="/_tour.html#t1a" title:"tour-games">Tour</a>
   						  </li>
   						  <li>
-  						    <a href="/">Games</a>
+  						    <a href="/_games.html.erb">Games</a>
   						  </li>
   						  <li>
-  						    <a href="/">Rewards</a>
+  						    <a href="/_rewards.html.erb">Rewards</a>
   						  </li>
   						</ul>
     				</section><!--close section-->  	
@@ -367,13 +368,13 @@
     <script src="./javascripts/fancybox/source/helpers/jquery.fancybox-media.js"></script><!--fancybox media--> 
     <script src="./javascripts/fancybox/source/helpers/jquery.fancybox-buttons.js"></script><!--fancybox buttons--> 
     <script src="./javascripts/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script><!--fancybox thumbs--> 
-    <script src="./javascripts/fancybox_init.js"></script><!--initialize fancybox--> 
+    <script src="./javascripts/fancybox_init.js"></script><!--initialize fancybox-->
+    <script src="./javascripts/jquery.cycle.js"></script><!--initialize fancybox--> 
     
     
     <!--initialize scripts / custom scripts all pages--> 
     <script type="text/javascript" src="./javascripts/scripts.js"></script><!-- responsive videos -->
-    
-    
+                                               
     <!-- Nav.User logIn Script / Styling in Header-1.css  -->
     <script>
     $(document).ready(function(){
@@ -415,7 +416,20 @@
         //the progressbar script '
         $('.progress .bar').progressbar();
         
-        
+       // The way Jobs function display 
+        function onAfter() {
+          $('#caption').html(this.title);
+           }
+           $('#content').cycle({
+               fx: 'fade',
+               speed: 500,
+               timeout: 5000,
+               next: '#next',
+               prev: '#previous',
+               pause: 1,
+               after: onAfter
+           });
+                
     });
     
     </script>
